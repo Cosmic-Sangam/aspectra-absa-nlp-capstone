@@ -1,0 +1,46 @@
+{
+  "dataset_name": "SemEval-2014 Task 4 ABSA",
+  "retrieval_date": "2026-10-30T05:17:56.734234+00:00",
+  "files": {
+    "laptop_train": {
+      "path": "C:\\Users\\sanga\\Desktop\\BOOKS\\SEMESTER 5\\NLP\\NLP Project\\absa\\data\\raw\\laptop\\Laptops_Train.xml.seg",
+      "filename": "Laptops_Train.xml.seg",
+      "domain": "laptop",
+      "split": "train",
+      "size_bytes": 271591,
+      "sha256": "fcc7574e20bc5af850d643ecaacf8f675a7c6b7979923ac5a0d571f237398a67",
+      "source": "https://raw.githubusercontent.com/songyouwei/ABSA-PyTorch/master/datasets/semeval14/Laptops_Train.xml.seg",
+      "valid": true
+    },
+    "laptop_test": {
+      "path": "C:\\Users\\sanga\\Desktop\\BOOKS\\SEMESTER 5\\NLP\\NLP Project\\absa\\data\\raw\\laptop\\Laptops_Test_Gold.xml.seg",
+      "filename": "Laptops_Test_Gold.xml.seg",
+      "domain": "laptop",
+      "split": "test",
+      "size_bytes": 61851,
+      "sha256": "991c33cac376ac571564006b23e525132871fa70535992a22bda38574768ae0c",
+      "source": "https://raw.githubusercontent.com/songyouwei/ABSA-PyTorch/master/datasets/semeval14/Laptops_Test_Gold.xml.seg",
+      "valid": true
+    },
+    "restaurant_train": {
+      "path": "C:\\Users\\sanga\\Desktop\\BOOKS\\SEMESTER 5\\NLP\\NLP Project\\absa\\data\\raw\\restaurant\\Restaurants_Train.xml.seg",
+      "filename": "Restaurants_Train.xml.seg",
+      "domain": "restaurant",
+      "split": "train",
+      "size_bytes": 386645,
+      "sha256": "179e03965ad30f9c6348b5eb3ea0f285fd6952c7914489c5539ed65ffef5c66a",
+      "source": "https://raw.githubusercontent.com/songyouwei/ABSA-PyTorch/master/datasets/semeval14/Restaurants_Train.xml.seg",
+      "valid": true
+    },
+    "restaurant_test": {
+      "path": "C:\\Users\\sanga\\Desktop\\BOOKS\\SEMESTER 5\\NLP\\NLP Project\\absa\\data\\raw\\restaurant\\Restaurants_Test_Gold.xml.seg",
+      "filename": "Restaurants_Test_Gold.xml.seg",
+      "domain": "restaurant",
+      "split": "test",
+      "size_bytes": 115810,
+      "sha256": "9492e95146e4f650da5109a2a2da4ae9e3f2440b7fccadac2100b3c2bd9dee0a",
+      "source": "https://raw.githubusercontent.com/songyouwei/ABSA-PyTorch/master/datasets/semeval14/Restaurants_Test_Gold.xml.seg",
+      "valid": true
+    }
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "total_predictions": 638,
+  "total_correct": 483,
+  "total_errors": 155,
+  "error_rate": 0.24294670846394983,
+  "errors_by_true_label": {
+    "positive": 53,
+    "neutral": 81,
+    "negative": 21
+  },
+  "confusion_pairs": {
+    "neutral \u2192 negative": 46,
+    "neutral \u2192 positive": 35,
+    "positive \u2192 neutral": 27,
+    "positive \u2192 negative": 26,
+    "negative \u2192 neutral": 13,
+    "negative \u2192 positive": 8
+  },
+  "low_confidence_errors": 46,
+  "high_confidence_errors": 109,
+  "sample_errors": [
+    {
+      "text": "Other than not being a fan of click pads -LRB- industry standard these days -RRB- and the lousy internal speakers , it 's hard for me to find things about this notebook I do n't like , especially considering the $ 350 price tag .",
+      "aspect": "price tag",
+      "true": "positive",
+      "pred": "negative",
+      "confidence": 0.903,
+      "correct": false
+    },
+    {
+      "text": "No installation disk (DVD) is included .",
+      "aspect": "installation disk (DVD)",
+      "true": "neutral",
+      "pred": "negative",
+      "confidence": 0.7536,
+      "correct": false
+    },
+    {
+      "text": "The Apple engineers have not yet discovered the delete key .",
+      "aspect": "delete key",
+      "true": "negative",
+      "pred": "neutral",
+      "confidence": 0.4815,
+      "correct": false
+    },
+    {
+      "text": "This laptop has only 2 USB ports , and they are both on the same side .",
+      "aspect": "USB ports",
+      "true": "negative",
+      "pred": "neutral",
+      "confidence": 0.9042,
+      "correct": false
+    },
+    {
+      "text": "They do n't just look good ; they deliver excellent performance .",
+      "aspect": "look",
+      "true": "positive",
+      "pred": "negative",
+      "confidence": 0.705,
+      "correct": false
+    },
+    {
+      "text": "They do n't just look good ; they deliver excellent performance .",
+      "aspect": "performance",
+      "true": "positive",
+      "pred": "negative",
+      "confidence": 0.4974,
+      "correct": false
+    },
+    {
+      "text": "Cons : Screen resolution .",
+      "aspect": "Screen resolution",
+      "true": "negative",
+      "pred": "neutral",
+      "confidence": 0.6652,
+      "correct": false
+    },
+    {
+      "text": "From the speed to the multi touch gestures this operating system beats Windows easily .",
+      "aspect": "operating system",
+      "true": "positive",
+      "pred": "neutral",
+      "confidence": 0.5022,
+      "correct": false
+    },
+    {
+      "text": "From the speed to the multi touch gestures this operating system beats Windows easily .",
+      "aspect": "Windows",
+      "true": "negative",
+      "pred": "positive",
+      "confidence": 0.5886,
+      "correct": false
+    },
+    {
+      "text": "I opted for the SquareTrade 3-Year Computer Accidental Protection Warranty -LRB- $ 1500-2000 -RRB- which also support `` accidents '' like drops and spills that are NOT covered by AppleCare .",
+      "aspect": "SquareTrade 3-Year Computer Accidental Protection Warranty",
+      "true": "positive",
+      "pred": "neutral",
+      "confidence": 0.8633,
+      "correct": false
+    },
+    {
+      "text": "I opted for the SquareTrade 3-Year Computer Accidental Protection Warranty -LRB- $ 1500-2000 -RRB- which also support `` accidents '' like drops and spills that are NOT covered by AppleCare .",
+      "aspect": "AppleCare",
+      "true": "negative",
+      "pred": "neutral",
+      "confidence": 0.7481,
+      "correct": false
+    },
+    {
+      "text": "It 's been time for a new laptop , and the only debate was which size of the Mac laptops , and whether to spring for the retina display .",
+      "aspect": "size",
+      "true": "neutral",
+      "pred": "negative",
+      "confidence": 0.5373,
+      "correct": false
+    },
+    {
+      "text": "Apple removed the DVD drive Firewire port -LRB- will work with adapter -RRB- and put the SDXC slot in a silly position on the back .",
+      "aspect": "DVD drive Firewire port",
+      "true": "neutral",
+      "pred": "negative",
+      "confidence": 0.5089,
+      "correct": false
+    },
+    {
+      "text": "Apple removed the DVD drive Firewire port -LRB- will work with adapter -RRB- and put the SDXC slot in a silly position on the back .",
+      "aspect": "adapter",
+      "true": "neutral",
+      "pred": "negative",
+      "confidence": 0.4999,
+      "correct": false
+    },
+    {
+      "text": "Apple is unmatched in product quality , aesthetics , craftmanship , and customer service .",
+      "aspect": "product quality",
+      "true": "positive",
+      "pred": "negative",
+      "confidence": 0.7461,
+      "correct": false
+    },
+    {
+      "text": "Apple is unmatched in product quality , aesthetics , craftmanship , and customer service .",
+      "aspect": "aesthetics",
+      "true": "positive",
+      "pred": "negative",
+      "confidence": 0.6486,
+      "correct": false
+    },
+    {
+      "text": "Apple is unmatched in product quality , aesthetics , craftmanship , and customer service .",
+      "aspect": "craftmanship",
+      "true": "positive",
+      "pred": "negative",
+      "confidence": 0.6111,
+      "correct": false
+    },
+    {
+      "text": "Apple is unmatched in product quality , aesthetics , craftmanship , and customer service .",
+      "aspect": "customer service",
+      "true": "positive",
+      "pred": "negative",
+      "confidence": 0.5573,
+      "correct": false
+    },
+    {
+      "text": "Startup times are incredibly long : over two minutes .",
+      "aspect": "Startup times",
+      "true": "negative",
+      "pred": "positive",
+      "confidence": 0.9165,
+      "correct": false
+    },
+    {
+      "text": "It is really thick around the battery .",
+      "aspect": "battery",
+      "true": "neutral",
+      "pred": "negative",
+      "confidence": 0.8684,
+      "correct": false
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "laptop_train": {
+    "num_sentences": 1482,
+    "total_aspects": 2328,
+    "polarity_distribution": {
+      "neutral": 464,
+      "positive": 994,
+      "negative": 870
+    },
+    "multi_aspect_sentences": 542,
+    "no_aspect_sentences": 0,
+    "offset_verification": {
+      "total": 2328,
+      "correct": 2328,
+      "mismatch": 0,
+      "missing": 0
+    }
+  },
+  "laptop_test": {
+    "num_sentences": 418,
+    "total_aspects": 638,
+    "polarity_distribution": {
+      "positive": 341,
+      "negative": 128,
+      "neutral": 169
+    },
+    "multi_aspect_sentences": 149,
+    "no_aspect_sentences": 0,
+    "offset_verification": {
+      "total": 638,
+      "correct": 638,
+      "mismatch": 0,
+      "missing": 0
+    }
+  },
+  "restaurant_train": {
+    "num_sentences": 2009,
+    "total_aspects": 3608,
+    "polarity_distribution": {
+      "negative": 807,
+      "positive": 2164,
+      "neutral": 637
+    },
+    "multi_aspect_sentences": 958,
+    "no_aspect_sentences": 0,
+    "offset_verification": {
+      "total": 3608,
+      "correct": 3608,
+      "mismatch": 0,
+      "missing": 0
+    }
+  },
+  "restaurant_test": {
+    "num_sentences": 610,
+    "total_aspects": 1120,
+    "polarity_distribution": {
+      "positive": 728,
+      "neutral": 196,
+      "negative": 196
+    },
+    "multi_aspect_sentences": 313,
+    "no_aspect_sentences": 0,
+    "offset_verification": {
+      "total": 1120,
+      "correct": 1120,
+      "mismatch": 0,
+      "missing": 0
+    }
+  }
+}

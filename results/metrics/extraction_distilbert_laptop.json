@@ -1,0 +1,15 @@
+{
+  "model": "distilbert",
+  "domain": "laptop",
+  "token_level": {
+    "precision": 0.871413390010627,
+    "recall": 0.7915057915057915,
+    "f1": 0.8295397066262014
+  },
+  "exact_match": {
+    "precision": 0.8135860979462876,
+    "recall": 0.8123028391167192,
+    "f1": 0.8129439621152328
+  },
+  "num_samples": 418
+}

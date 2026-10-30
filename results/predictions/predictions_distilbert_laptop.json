@@ -1,0 +1,5106 @@
+[
+  {
+    "text": "Boot time is super fast , around anywhere from 35 seconds to 1 minute .",
+    "aspect": "Boot time",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9479,
+    "correct": true
+  },
+  {
+    "text": "tech support would not fix the problem unless I bought your plan for $ 150 plus .",
+    "aspect": "tech support",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.4673,
+    "correct": true
+  },
+  {
+    "text": "Set up was easy .",
+    "aspect": "Set up",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9652,
+    "correct": true
+  },
+  {
+    "text": "Did not enjoy the new Windows 8 and touchscreen functions .",
+    "aspect": "Windows 8",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.8227,
+    "correct": true
+  },
+  {
+    "text": "Did not enjoy the new Windows 8 and touchscreen functions .",
+    "aspect": "touchscreen functions",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.7999,
+    "correct": true
+  },
+  {
+    "text": "Other than not being a fan of click pads -LRB- industry standard these days -RRB- and the lousy internal speakers , it 's hard for me to find things about this notebook I do n't like , especially considering the $ 350 price tag .",
+    "aspect": "internal speakers",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.9332,
+    "correct": true
+  },
+  {
+    "text": "Other than not being a fan of click pads -LRB- industry standard these days -RRB- and the lousy internal speakers , it 's hard for me to find things about this notebook I do n't like , especially considering the $ 350 price tag .",
+    "aspect": "price tag",
+    "true": "positive",
+    "pred": "negative",
+    "confidence": 0.903,
+    "correct": false
+  },
+  {
+    "text": "Other than not being a fan of click pads -LRB- industry standard these days -RRB- and the lousy internal speakers , it 's hard for me to find things about this notebook I do n't like , especially considering the $ 350 price tag .",
+    "aspect": "click pads",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.8969,
+    "correct": true
+  },
+  {
+    "text": "No installation disk (DVD) is included .",
+    "aspect": "installation disk (DVD)",
+    "true": "neutral",
+    "pred": "negative",
+    "confidence": 0.7536,
+    "correct": false
+  },
+  {
+    "text": "It 's fast , light , and simple to use .",
+    "aspect": "use",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9766,
+    "correct": true
+  },
+  {
+    "text": "Works well , and I am extremely happy to be back to an apple OS .",
+    "aspect": "Works",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9355,
+    "correct": true
+  },
+  {
+    "text": "Works well , and I am extremely happy to be back to an apple OS .",
+    "aspect": "apple OS",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.8901,
+    "correct": true
+  },
+  {
+    "text": "Sure it 's not light and slim but the features make up for it 100 % .",
+    "aspect": "features",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.5084,
+    "correct": true
+  },
+  {
+    "text": "I am pleased with the fast log on , speedy WiFi connection and the long battery life -LRB- > 6 hrs -RRB- .",
+    "aspect": "log on",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9634,
+    "correct": true
+  },
+  {
+    "text": "I am pleased with the fast log on , speedy WiFi connection and the long battery life -LRB- > 6 hrs -RRB- .",
+    "aspect": "WiFi connection",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9578,
+    "correct": true
+  },
+  {
+    "text": "I am pleased with the fast log on , speedy WiFi connection and the long battery life -LRB- > 6 hrs -RRB- .",
+    "aspect": "battery life",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9637,
+    "correct": true
+  },
+  {
+    "text": "The Apple engineers have not yet discovered the delete key .",
+    "aspect": "delete key",
+    "true": "negative",
+    "pred": "neutral",
+    "confidence": 0.4815,
+    "correct": false
+  },
+  {
+    "text": "Made interneting -LRB- part of my business -RRB- very difficult to maintain .",
+    "aspect": "interneting",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.945,
+    "correct": true
+  },
+  {
+    "text": "Luckily , for all of us contemplating the decision , the Mac Mini is priced just right .",
+    "aspect": "priced",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.8422,
+    "correct": true
+  },
+  {
+    "text": "Super light , super sexy and everything just works .",
+    "aspect": "works",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9692,
+    "correct": true
+  },
+  {
+    "text": "Only problem that I had was that the track pad was not very good for me , I only had a problem once or twice with it , But probably my computer was a bit defective .",
+    "aspect": "track pad",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.946,
+    "correct": true
+  },
+  {
+    "text": "It is super fast and has outstanding graphics .",
+    "aspect": "graphics",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.974,
+    "correct": true
+  },
+  {
+    "text": "But the mountain lion is just too slow .",
+    "aspect": "mountain lion",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.9579,
+    "correct": true
+  },
+  {
+    "text": "Strong build though which really adds to its durability .",
+    "aspect": "durability",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9655,
+    "correct": true
+  },
+  {
+    "text": "Strong build though which really adds to its durability .",
+    "aspect": "build",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.964,
+    "correct": true
+  },
+  {
+    "text": "The battery life is excellent - 6-7 hours without charging .",
+    "aspect": "battery life",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9626,
+    "correct": true
+  },
+  {
+    "text": "I 've had my computer for 2 weeks already and it works perfectly .",
+    "aspect": "works",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9426,
+    "correct": true
+  },
+  {
+    "text": "And I may be the only one but I am really liking Windows 8 .",
+    "aspect": "Windows 8",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.5706,
+    "correct": true
+  },
+  {
+    "text": "The baterry is very longer .",
+    "aspect": "baterry",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.5389,
+    "correct": true
+  },
+  {
+    "text": "Its size is ideal and the weight is acceptable .",
+    "aspect": "size",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9601,
+    "correct": true
+  },
+  {
+    "text": "Its size is ideal and the weight is acceptable .",
+    "aspect": "weight",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.958,
+    "correct": true
+  },
+  {
+    "text": "I can say that I am fully satisfied with the performance that the computer has supplied .",
+    "aspect": "performance",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9169,
+    "correct": true
+  },
+  {
+    "text": "This laptop has only 2 USB ports , and they are both on the same side .",
+    "aspect": "USB ports",
+    "true": "negative",
+    "pred": "neutral",
+    "confidence": 0.9042,
+    "correct": false
+  },
+  {
+    "text": "It has so much more speed and the screen is very sharp .",
+    "aspect": "speed",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9306,
+    "correct": true
+  },
+  {
+    "text": "It has so much more speed and the screen is very sharp .",
+    "aspect": "screen",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.7612,
+    "correct": true
+  },
+  {
+    "text": "Everything I wanted and everything I needed and the price was great !",
+    "aspect": "price",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9639,
+    "correct": true
+  },
+  {
+    "text": "It 's not inexpensive but the Hardware performance is impressive for a computer this small .",
+    "aspect": "Hardware performance",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.8982,
+    "correct": true
+  },
+  {
+    "text": "This thing is awesome , everything always works , everything is always easy to set up , everything is compatible , its literally everything I could ask for .",
+    "aspect": "works",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9645,
+    "correct": true
+  },
+  {
+    "text": "This thing is awesome , everything always works , everything is always easy to set up , everything is compatible , its literally everything I could ask for .",
+    "aspect": "set up",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9649,
+    "correct": true
+  },
+  {
+    "text": "Keyboard responds well to presses .",
+    "aspect": "Keyboard",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9223,
+    "correct": true
+  },
+  {
+    "text": "Lastly , Windows 8 is annoying .",
+    "aspect": "Windows 8",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.9451,
+    "correct": true
+  },
+  {
+    "text": "Everything is so easy and intuitive to setup or configure .",
+    "aspect": "setup",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9649,
+    "correct": true
+  },
+  {
+    "text": "Everything is so easy and intuitive to setup or configure .",
+    "aspect": "configure",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9653,
+    "correct": true
+  },
+  {
+    "text": "Biggest complaint is Windows 8 .",
+    "aspect": "Windows 8",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.9155,
+    "correct": true
+  },
+  {
+    "text": "Only 2 usb ports ... seems kind of ... limited .",
+    "aspect": "usb ports",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.8866,
+    "correct": true
+  },
+  {
+    "text": "It has all the expected features and more + plus a wide screen and more than roomy keyboard .",
+    "aspect": "features",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9491,
+    "correct": true
+  },
+  {
+    "text": "It has all the expected features and more + plus a wide screen and more than roomy keyboard .",
+    "aspect": "screen",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9569,
+    "correct": true
+  },
+  {
+    "text": "It has all the expected features and more + plus a wide screen and more than roomy keyboard .",
+    "aspect": "keyboard",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9504,
+    "correct": true
+  },
+  {
+    "text": "Amazing Performance for anything I throw at it .",
+    "aspect": "Performance",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9671,
+    "correct": true
+  },
+  {
+    "text": "The receiver was full of superlatives for the quality and performance .",
+    "aspect": "quality",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9528,
+    "correct": true
+  },
+  {
+    "text": "The receiver was full of superlatives for the quality and performance .",
+    "aspect": "performance",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9537,
+    "correct": true
+  },
+  {
+    "text": "I was extremely happy with the OS itself .",
+    "aspect": "OS",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.8192,
+    "correct": true
+  },
+  {
+    "text": "The new MBP offers great portability and gives us confidence that we are not going to need to purchase a new laptop in 18 months .",
+    "aspect": "portability",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9651,
+    "correct": true
+  },
+  {
+    "text": "The criticism has waned , and now I 'd be the first to recommend an Air for truly portable computing .",
+    "aspect": "portable computing",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.4543,
+    "correct": true
+  },
+  {
+    "text": "I would have given it 5 starts was it not for the fact that it had Windows 8",
+    "aspect": "Windows 8",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.5657,
+    "correct": true
+  },
+  {
+    "text": "MS Office 2011 for Mac is wonderful , well worth it .",
+    "aspect": "MS Office 2011 for Mac",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.961,
+    "correct": true
+  },
+  {
+    "text": "But the performance of Mac Mini is a huge disappointment .",
+    "aspect": "performance",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.9007,
+    "correct": true
+  },
+  {
+    "text": "They do n't just look good ; they deliver excellent performance .",
+    "aspect": "look",
+    "true": "positive",
+    "pred": "negative",
+    "confidence": 0.705,
+    "correct": false
+  },
+  {
+    "text": "They do n't just look good ; they deliver excellent performance .",
+    "aspect": "performance",
+    "true": "positive",
+    "pred": "negative",
+    "confidence": 0.4974,
+    "correct": false
+  },
+  {
+    "text": "I have had it over a year now with out a Glitch of any kind . . I love the lit up keys and screen display ... this thing is Fast and clear as can be .",
+    "aspect": "lit up keys",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9587,
+    "correct": true
+  },
+  {
+    "text": "I have had it over a year now with out a Glitch of any kind . . I love the lit up keys and screen display ... this thing is Fast and clear as can be .",
+    "aspect": "screen display",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9574,
+    "correct": true
+  },
+  {
+    "text": "The Mountain Lion OS is not hard to figure out if you are familiar with Microsoft Windows .",
+    "aspect": "Mountain Lion OS",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.5402,
+    "correct": true
+  },
+  {
+    "text": "The Mountain Lion OS is not hard to figure out if you are familiar with Microsoft Windows .",
+    "aspect": "Microsoft Windows",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.5288,
+    "correct": true
+  },
+  {
+    "text": "However , I can refute that OSX is `` FAST '' .",
+    "aspect": "OSX",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.5135,
+    "correct": true
+  },
+  {
+    "text": "Enjoy using Microsoft Office !",
+    "aspect": "Microsoft Office",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.7068,
+    "correct": true
+  },
+  {
+    "text": "Incredible graphics and brilliant colors .",
+    "aspect": "graphics",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9759,
+    "correct": true
+  },
+  {
+    "text": "Incredible graphics and brilliant colors .",
+    "aspect": "colors",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9767,
+    "correct": true
+  },
+  {
+    "text": "Built-in apps are purely amazing .",
+    "aspect": "Built-in apps",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.953,
+    "correct": true
+  },
+  {
+    "text": "Cons : Screen resolution .",
+    "aspect": "Screen resolution",
+    "true": "negative",
+    "pred": "neutral",
+    "confidence": 0.6652,
+    "correct": false
+  },
+  {
+    "text": "From the speed to the multi touch gestures this operating system beats Windows easily .",
+    "aspect": "operating system",
+    "true": "positive",
+    "pred": "neutral",
+    "confidence": 0.5022,
+    "correct": false
+  },
+  {
+    "text": "From the speed to the multi touch gestures this operating system beats Windows easily .",
+    "aspect": "Windows",
+    "true": "negative",
+    "pred": "positive",
+    "confidence": 0.5886,
+    "correct": false
+  },
+  {
+    "text": "From the speed to the multi touch gestures this operating system beats Windows easily .",
+    "aspect": "speed",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.7539,
+    "correct": true
+  },
+  {
+    "text": "From the speed to the multi touch gestures this operating system beats Windows easily .",
+    "aspect": "multi touch gestures",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.6101,
+    "correct": true
+  },
+  {
+    "text": "I really like the size and I 'm a fan of the ACERS .",
+    "aspect": "size",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9114,
+    "correct": true
+  },
+  {
+    "text": "I opted for the SquareTrade 3-Year Computer Accidental Protection Warranty -LRB- $ 1500-2000 -RRB- which also support `` accidents '' like drops and spills that are NOT covered by AppleCare .",
+    "aspect": "SquareTrade 3-Year Computer Accidental Protection Warranty",
+    "true": "positive",
+    "pred": "neutral",
+    "confidence": 0.8633,
+    "correct": false
+  },
+  {
+    "text": "I opted for the SquareTrade 3-Year Computer Accidental Protection Warranty -LRB- $ 1500-2000 -RRB- which also support `` accidents '' like drops and spills that are NOT covered by AppleCare .",
+    "aspect": "AppleCare",
+    "true": "negative",
+    "pred": "neutral",
+    "confidence": 0.7481,
+    "correct": false
+  },
+  {
+    "text": "It 's light and easy to transport .",
+    "aspect": "transport",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9734,
+    "correct": true
+  },
+  {
+    "text": "Once you get past learning how to use the poorly designed Windows 8 Set-Up you may feel frustrated .",
+    "aspect": "Windows 8 Set-Up",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.8361,
+    "correct": true
+  },
+  {
+    "text": "It 's been time for a new laptop , and the only debate was which size of the Mac laptops , and whether to spring for the retina display .",
+    "aspect": "size",
+    "true": "neutral",
+    "pred": "negative",
+    "confidence": 0.5373,
+    "correct": false
+  },
+  {
+    "text": "It 's been time for a new laptop , and the only debate was which size of the Mac laptops , and whether to spring for the retina display .",
+    "aspect": "retina display",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.4289,
+    "correct": true
+  },
+  {
+    "text": "The reason why I choose apple MacBook because of their design and the aluminum casing .",
+    "aspect": "design",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.8592,
+    "correct": true
+  },
+  {
+    "text": "The reason why I choose apple MacBook because of their design and the aluminum casing .",
+    "aspect": "aluminum casing",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.824,
+    "correct": true
+  },
+  {
+    "text": "The aluminum body sure makes it stand out .",
+    "aspect": "aluminum body",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9567,
+    "correct": true
+  },
+  {
+    "text": "It is very easy to integrate bluetooth devices , and USB devices are recognized almost instantly .",
+    "aspect": "integrate bluetooth devices",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.7313,
+    "correct": true
+  },
+  {
+    "text": "It is very easy to integrate bluetooth devices , and USB devices are recognized almost instantly .",
+    "aspect": "USB devices",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.6434,
+    "correct": true
+  },
+  {
+    "text": "And the fact that Apple is driving the 13 '' RMBP with the Intel4000 graphic chip seems underpowered -LRB- to me .",
+    "aspect": "Intel4000 graphic chip",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.6162,
+    "correct": true
+  },
+  {
+    "text": "Apple removed the DVD drive Firewire port -LRB- will work with adapter -RRB- and put the SDXC slot in a silly position on the back .",
+    "aspect": "DVD drive Firewire port",
+    "true": "neutral",
+    "pred": "negative",
+    "confidence": 0.5089,
+    "correct": false
+  },
+  {
+    "text": "Apple removed the DVD drive Firewire port -LRB- will work with adapter -RRB- and put the SDXC slot in a silly position on the back .",
+    "aspect": "adapter",
+    "true": "neutral",
+    "pred": "negative",
+    "confidence": 0.4999,
+    "correct": false
+  },
+  {
+    "text": "Apple removed the DVD drive Firewire port -LRB- will work with adapter -RRB- and put the SDXC slot in a silly position on the back .",
+    "aspect": "SDXC slot",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.6496,
+    "correct": true
+  },
+  {
+    "text": "The durability of the laptop will make it worth the money .",
+    "aspect": "durability",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9193,
+    "correct": true
+  },
+  {
+    "text": "Well designed and fast .",
+    "aspect": "designed",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9755,
+    "correct": true
+  },
+  {
+    "text": "But I was completely wrong , this computer is UNBELIEVABLE amazing and easy to use .",
+    "aspect": "use",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9738,
+    "correct": true
+  },
+  {
+    "text": "Exactly as posted plus a great value .",
+    "aspect": "value",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9708,
+    "correct": true
+  },
+  {
+    "text": "The specs are pretty good too .",
+    "aspect": "specs",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9457,
+    "correct": true
+  },
+  {
+    "text": "Apple is unmatched in product quality , aesthetics , craftmanship , and customer service .",
+    "aspect": "product quality",
+    "true": "positive",
+    "pred": "negative",
+    "confidence": 0.7461,
+    "correct": false
+  },
+  {
+    "text": "Apple is unmatched in product quality , aesthetics , craftmanship , and customer service .",
+    "aspect": "aesthetics",
+    "true": "positive",
+    "pred": "negative",
+    "confidence": 0.6486,
+    "correct": false
+  },
+  {
+    "text": "Apple is unmatched in product quality , aesthetics , craftmanship , and customer service .",
+    "aspect": "craftmanship",
+    "true": "positive",
+    "pred": "negative",
+    "confidence": 0.6111,
+    "correct": false
+  },
+  {
+    "text": "Apple is unmatched in product quality , aesthetics , craftmanship , and customer service .",
+    "aspect": "customer service",
+    "true": "positive",
+    "pred": "negative",
+    "confidence": 0.5573,
+    "correct": false
+  },
+  {
+    "text": "It is a great size and amazing windows 8 included !",
+    "aspect": "size",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9699,
+    "correct": true
+  },
+  {
+    "text": "It is a great size and amazing windows 8 included !",
+    "aspect": "windows 8",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9662,
+    "correct": true
+  },
+  {
+    "text": "I do not like too much Windows 8 .",
+    "aspect": "Windows 8",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.5168,
+    "correct": true
+  },
+  {
+    "text": "Startup times are incredibly long : over two minutes .",
+    "aspect": "Startup times",
+    "true": "negative",
+    "pred": "positive",
+    "confidence": 0.9165,
+    "correct": false
+  },
+  {
+    "text": "Also stunning colors and speedy",
+    "aspect": "colors",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9713,
+    "correct": true
+  },
+  {
+    "text": "great price free shipping what else can i ask for !!",
+    "aspect": "price",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9631,
+    "correct": true
+  },
+  {
+    "text": "great price free shipping what else can i ask for !!",
+    "aspect": "shipping",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9615,
+    "correct": true
+  },
+  {
+    "text": "This mouse is terrific .",
+    "aspect": "mouse",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9648,
+    "correct": true
+  },
+  {
+    "text": "It is really thick around the battery .",
+    "aspect": "battery",
+    "true": "neutral",
+    "pred": "negative",
+    "confidence": 0.8684,
+    "correct": false
+  },
+  {
+    "text": "And windows 7 works like a charm .",
+    "aspect": "windows 7",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9449,
+    "correct": true
+  },
+  {
+    "text": ":-RRB- Great product , great price , great delivery , and great service .",
+    "aspect": "price",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9733,
+    "correct": true
+  },
+  {
+    "text": ":-RRB- Great product , great price , great delivery , and great service .",
+    "aspect": "delivery",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9729,
+    "correct": true
+  },
+  {
+    "text": ":-RRB- Great product , great price , great delivery , and great service .",
+    "aspect": "service",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9729,
+    "correct": true
+  },
+  {
+    "text": ":] It arrived so fast and customer service was great .",
+    "aspect": "customer service",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9637,
+    "correct": true
+  },
+  {
+    "text": "tried windows 8 and hated it !!!",
+    "aspect": "windows 8",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.8998,
+    "correct": true
+  },
+  {
+    "text": "Set up was a breeze .",
+    "aspect": "Set up",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.861,
+    "correct": true
+  },
+  {
+    "text": "But I do NOT like Win8 .",
+    "aspect": "Win8",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.8122,
+    "correct": true
+  },
+  {
+    "text": "I am still in the process of learning about its features .",
+    "aspect": "features",
+    "true": "neutral",
+    "pred": "positive",
+    "confidence": 0.5992,
+    "correct": false
+  },
+  {
+    "text": "I had the same reasons as most PC users : the price , the overbearing restrictions of OSX and lack of support for games .",
+    "aspect": "price",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.9433,
+    "correct": true
+  },
+  {
+    "text": "I had the same reasons as most PC users : the price , the overbearing restrictions of OSX and lack of support for games .",
+    "aspect": "OSX",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.9411,
+    "correct": true
+  },
+  {
+    "text": "I had the same reasons as most PC users : the price , the overbearing restrictions of OSX and lack of support for games .",
+    "aspect": "support for games",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.9438,
+    "correct": true
+  },
+  {
+    "text": "I wanted it for it 's mobility and man , this little bad boy is very nice .",
+    "aspect": "mobility",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9472,
+    "correct": true
+  },
+  {
+    "text": "I found the mini to be : Exceptionally easy to set up",
+    "aspect": "set up",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9682,
+    "correct": true
+  },
+  {
+    "text": "Having USB3 is why I bought this Mini .",
+    "aspect": "USB3",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.5652,
+    "correct": true
+  },
+  {
+    "text": "The sound is nice and loud ; I do n't have any problems with hearing anything .",
+    "aspect": "sound",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9529,
+    "correct": true
+  },
+  {
+    "text": "It is very slim , the track pad is very much impressed with me .",
+    "aspect": "track pad",
+    "true": "positive",
+    "pred": "negative",
+    "confidence": 0.8137,
+    "correct": false
+  },
+  {
+    "text": "The settings are not user-friendly either .",
+    "aspect": "settings",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.9336,
+    "correct": true
+  },
+  {
+    "text": "Thank goodness for OpenOffice !",
+    "aspect": "OpenOffice",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.816,
+    "correct": true
+  },
+  {
+    "text": "Awesome form factor , great battery life , wonderful UX .",
+    "aspect": "form factor",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9761,
+    "correct": true
+  },
+  {
+    "text": "Awesome form factor , great battery life , wonderful UX .",
+    "aspect": "battery life",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.976,
+    "correct": true
+  },
+  {
+    "text": "Awesome form factor , great battery life , wonderful UX .",
+    "aspect": "UX",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9761,
+    "correct": true
+  },
+  {
+    "text": "i love the keyboard and the screen .",
+    "aspect": "keyboard",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9533,
+    "correct": true
+  },
+  {
+    "text": "i love the keyboard and the screen .",
+    "aspect": "screen",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9525,
+    "correct": true
+  },
+  {
+    "text": "However , there are MAJOR issues with the touchpad which render the device nearly useless .",
+    "aspect": "touchpad",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.9322,
+    "correct": true
+  },
+  {
+    "text": "I 've already upgraded o Mavericks and I am impressed with everything about this computer .",
+    "aspect": "Mavericks",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.8969,
+    "correct": true
+  },
+  {
+    "text": "Not as fast as I would have expect for an i5 .",
+    "aspect": "i5",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.9333,
+    "correct": true
+  },
+  {
+    "text": "thanks for great service and shipping !",
+    "aspect": "service",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9638,
+    "correct": true
+  },
+  {
+    "text": "thanks for great service and shipping !",
+    "aspect": "shipping",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9619,
+    "correct": true
+  },
+  {
+    "text": "The performance seems quite good , and built-in applications like iPhoto work great with my phone and camera .",
+    "aspect": "performance",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9606,
+    "correct": true
+  },
+  {
+    "text": "The performance seems quite good , and built-in applications like iPhoto work great with my phone and camera .",
+    "aspect": "built-in applications",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.949,
+    "correct": true
+  },
+  {
+    "text": "The performance seems quite good , and built-in applications like iPhoto work great with my phone and camera .",
+    "aspect": "iPhoto",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.948,
+    "correct": true
+  },
+  {
+    "text": "I did swap out the hard drive for a Samsung 830 SSD which I highly recommend .",
+    "aspect": "hard drive",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.8413,
+    "correct": true
+  },
+  {
+    "text": "I did swap out the hard drive for a Samsung 830 SSD which I highly recommend .",
+    "aspect": "Samsung 830 SSD",
+    "true": "positive",
+    "pred": "neutral",
+    "confidence": 0.8196,
+    "correct": false
+  },
+  {
+    "text": "Starts up in a hurry and everything is ready to go .",
+    "aspect": "Starts up",
+    "true": "positive",
+    "pred": "negative",
+    "confidence": 0.5054,
+    "correct": false
+  },
+  {
+    "text": "Yes , that 's a good thing , but it 's made from aluminum that scratches easily .",
+    "aspect": "aluminum",
+    "true": "negative",
+    "pred": "positive",
+    "confidence": 0.6511,
+    "correct": false
+  },
+  {
+    "text": "Quick and has built in virus control .",
+    "aspect": "built in virus control",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9505,
+    "correct": true
+  },
+  {
+    "text": "Took a long time trying to decide between one with retina display and one without .",
+    "aspect": "retina display",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.494,
+    "correct": true
+  },
+  {
+    "text": "I was also informed that the components of the Mac Book were dirty .",
+    "aspect": "components",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.9172,
+    "correct": true
+  },
+  {
+    "text": "the hardware problems have been so bad , i ca n't wait till it completely dies in 3 years , TOPS !",
+    "aspect": "hardware",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.9494,
+    "correct": true
+  },
+  {
+    "text": "It 's so nice that the battery last so long and that this machine has the snow lion !",
+    "aspect": "battery",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9383,
+    "correct": true
+  },
+  {
+    "text": "It 's so nice that the battery last so long and that this machine has the snow lion !",
+    "aspect": "snow lion",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9146,
+    "correct": true
+  },
+  {
+    "text": "HOWEVER I chose two day shipping and it took over a week to arrive .",
+    "aspect": "shipping",
+    "true": "negative",
+    "pred": "neutral",
+    "confidence": 0.712,
+    "correct": false
+  },
+  {
+    "text": "it 's exactly what i wanted , and it has all the new features and whatnot .",
+    "aspect": "features",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9266,
+    "correct": true
+  },
+  {
+    "text": "Can you buy any laptop that matches the quality of a MacBook ?",
+    "aspect": "quality",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.6172,
+    "correct": true
+  },
+  {
+    "text": "It feels cheap , the keyboard is not very sensitive .",
+    "aspect": "keyboard",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.9146,
+    "correct": true
+  },
+  {
+    "text": "Though please note that sometimes it crashes , and the sound quality isnt superb .",
+    "aspect": "sound quality",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.9385,
+    "correct": true
+  },
+  {
+    "text": "It is very easy to navigate even for a novice .",
+    "aspect": "navigate",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9568,
+    "correct": true
+  },
+  {
+    "text": "Does everything I need it to , has a wonderful battery life and I could n't be happier .",
+    "aspect": "battery life",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9648,
+    "correct": true
+  },
+  {
+    "text": "Great Performance and Quality .",
+    "aspect": "Performance",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9736,
+    "correct": true
+  },
+  {
+    "text": "Great Performance and Quality .",
+    "aspect": "Quality",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9748,
+    "correct": true
+  },
+  {
+    "text": "I used windows XP , windows Vista , and Windows 7 extensively .",
+    "aspect": "windows XP",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.9159,
+    "correct": true
+  },
+  {
+    "text": "I used windows XP , windows Vista , and Windows 7 extensively .",
+    "aspect": "windows Vista",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.9208,
+    "correct": true
+  },
+  {
+    "text": "I used windows XP , windows Vista , and Windows 7 extensively .",
+    "aspect": "Windows 7",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.9164,
+    "correct": true
+  },
+  {
+    "text": "I did add a SSD drive and memory",
+    "aspect": "SSD drive",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.9266,
+    "correct": true
+  },
+  {
+    "text": "I did add a SSD drive and memory",
+    "aspect": "memory",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.9312,
+    "correct": true
+  },
+  {
+    "text": "On start up it asks endless questions just so itune can sell you more of their products .",
+    "aspect": "start up",
+    "true": "negative",
+    "pred": "positive",
+    "confidence": 0.5496,
+    "correct": false
+  },
+  {
+    "text": "On start up it asks endless questions just so itune can sell you more of their products .",
+    "aspect": "itune",
+    "true": "negative",
+    "pred": "positive",
+    "confidence": 0.5216,
+    "correct": false
+  },
+  {
+    "text": "I Have been a Pc user for a very long time now but I will get used to this new OS .",
+    "aspect": "OS",
+    "true": "neutral",
+    "pred": "positive",
+    "confidence": 0.5841,
+    "correct": false
+  },
+  {
+    "text": "One more thing , this mac does NOT come with restore disks and I am not sure if you can make them direct from the mac like you can with newer PC 's , also the charging cables are made of the same cheap material as the iPhone/iPod touch cables .",
+    "aspect": "restore disks",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.8138,
+    "correct": true
+  },
+  {
+    "text": "One more thing , this mac does NOT come with restore disks and I am not sure if you can make them direct from the mac like you can with newer PC 's , also the charging cables are made of the same cheap material as the iPhone/iPod touch cables .",
+    "aspect": "charging cables",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.7315,
+    "correct": true
+  },
+  {
+    "text": "One more thing , this mac does NOT come with restore disks and I am not sure if you can make them direct from the mac like you can with newer PC 's , also the charging cables are made of the same cheap material as the iPhone/iPod touch cables .",
+    "aspect": "material",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.7674,
+    "correct": true
+  },
+  {
+    "text": "I bought it to my son who uses it for graphic design .",
+    "aspect": "graphic design",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.8298,
+    "correct": true
+  },
+  {
+    "text": "I never tried any external mics with that iMac .",
+    "aspect": "external mics",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.5592,
+    "correct": true
+  },
+  {
+    "text": "The new os is great on my macbook pro !",
+    "aspect": "os",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9448,
+    "correct": true
+  },
+  {
+    "text": "I have experienced no problems , works as anticipated .",
+    "aspect": "works",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9125,
+    "correct": true
+  },
+  {
+    "text": "System is running great .",
+    "aspect": "System",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.964,
+    "correct": true
+  },
+  {
+    "text": "Easy to customize setting and even create your own bookmarks .",
+    "aspect": "customize setting",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9502,
+    "correct": true
+  },
+  {
+    "text": "Easy to customize setting and even create your own bookmarks .",
+    "aspect": "create your own bookmarks",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9409,
+    "correct": true
+  },
+  {
+    "text": "The MAC Mini , wireless keyboard / mouse and a HDMI cable is all I need to get some real work done .",
+    "aspect": "wireless keyboard / mouse",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.8106,
+    "correct": true
+  },
+  {
+    "text": "The MAC Mini , wireless keyboard / mouse and a HDMI cable is all I need to get some real work done .",
+    "aspect": "HDMI cable",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.8273,
+    "correct": true
+  },
+  {
+    "text": "it has all the features that we expected and the price was good , working well so far .",
+    "aspect": "features",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9609,
+    "correct": true
+  },
+  {
+    "text": "it has all the features that we expected and the price was good , working well so far .",
+    "aspect": "price",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.959,
+    "correct": true
+  },
+  {
+    "text": "it has all the features that we expected and the price was good , working well so far .",
+    "aspect": "working",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9578,
+    "correct": true
+  },
+  {
+    "text": "I work as a designer and coder and I needed a new buddy to work with , not gaming .",
+    "aspect": "gaming",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.8138,
+    "correct": true
+  },
+  {
+    "text": "The new operating system makes this computer into a super iPad .",
+    "aspect": "operating system",
+    "true": "positive",
+    "pred": "neutral",
+    "confidence": 0.629,
+    "correct": false
+  },
+  {
+    "text": "Easy to set up and go !",
+    "aspect": "set up",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9701,
+    "correct": true
+  },
+  {
+    "text": "I ca n't believe how quiet the hard drive is and how quick this thing boots up .",
+    "aspect": "hard drive",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.8896,
+    "correct": true
+  },
+  {
+    "text": "I ca n't believe how quiet the hard drive is and how quick this thing boots up .",
+    "aspect": "boots up",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9338,
+    "correct": true
+  },
+  {
+    "text": "The only issue came when I tried scanning to the mac .",
+    "aspect": "scanning",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.7174,
+    "correct": true
+  },
+  {
+    "text": "I think this is about as good as it gets at anything close to this price point .",
+    "aspect": "price point",
+    "true": "neutral",
+    "pred": "positive",
+    "confidence": 0.727,
+    "correct": false
+  },
+  {
+    "text": "It 's just what we were looking for and it works great .",
+    "aspect": "works",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9617,
+    "correct": true
+  },
+  {
+    "text": "It 's so quick and responsive that it makes working / surfing on a computer so much more pleasurable !",
+    "aspect": "working",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9528,
+    "correct": true
+  },
+  {
+    "text": "It 's so quick and responsive that it makes working / surfing on a computer so much more pleasurable !",
+    "aspect": "surfing",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9511,
+    "correct": true
+  },
+  {
+    "text": "It works fine , and all the software seems to run pretty well .",
+    "aspect": "works",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9409,
+    "correct": true
+  },
+  {
+    "text": "It works fine , and all the software seems to run pretty well .",
+    "aspect": "software",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9266,
+    "correct": true
+  },
+  {
+    "text": "I 'm using this computer for word processing , web browsing , some gaming , and I 'm learning programming .",
+    "aspect": "word processing",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.9358,
+    "correct": true
+  },
+  {
+    "text": "I 'm using this computer for word processing , web browsing , some gaming , and I 'm learning programming .",
+    "aspect": "web browsing",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.9316,
+    "correct": true
+  },
+  {
+    "text": "I 'm using this computer for word processing , web browsing , some gaming , and I 'm learning programming .",
+    "aspect": "gaming",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.9347,
+    "correct": true
+  },
+  {
+    "text": "I 'm using this computer for word processing , web browsing , some gaming , and I 'm learning programming .",
+    "aspect": "programming",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.9243,
+    "correct": true
+  },
+  {
+    "text": "My wife was so excited to open the box , but quickly came to see that it did not function as it should .",
+    "aspect": "function",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.8947,
+    "correct": true
+  },
+  {
+    "text": "I wanted a computer that was quite , fast , and that had overall great performance .",
+    "aspect": "performance",
+    "true": "neutral",
+    "pred": "positive",
+    "confidence": 0.969,
+    "correct": false
+  },
+  {
+    "text": "Apple \"Help\" is a mixed bag .",
+    "aspect": "Apple \"Help\"",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.8032,
+    "correct": true
+  },
+  {
+    "text": "It suddenly can not work .",
+    "aspect": "work",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.9611,
+    "correct": true
+  },
+  {
+    "text": "Harddrive was in poor condition , had to replace it .",
+    "aspect": "Harddrive",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.9575,
+    "correct": true
+  },
+  {
+    "text": "The on/off switch is a bit obscure in the rear corner .",
+    "aspect": "on/off switch",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.8496,
+    "correct": true
+  },
+  {
+    "text": "My only complaint is the total lack of instructions that come with the mac mini .",
+    "aspect": "instructions",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.9427,
+    "correct": true
+  },
+  {
+    "text": "The only task that this computer would not be good enough for would be gaming , otherwise the integrated Intel 4000 graphics work well for other tasks .",
+    "aspect": "gaming",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.8544,
+    "correct": true
+  },
+  {
+    "text": "I use it mostly for content creation -LRB- Audio , video , photo editing -RRB- and its reliable .",
+    "aspect": "content creation",
+    "true": "positive",
+    "pred": "neutral",
+    "confidence": 0.8698,
+    "correct": false
+  },
+  {
+    "text": "I use it mostly for content creation -LRB- Audio , video , photo editing -RRB- and its reliable .",
+    "aspect": "Audio",
+    "true": "positive",
+    "pred": "neutral",
+    "confidence": 0.8861,
+    "correct": false
+  },
+  {
+    "text": "I use it mostly for content creation -LRB- Audio , video , photo editing -RRB- and its reliable .",
+    "aspect": "video",
+    "true": "positive",
+    "pred": "neutral",
+    "confidence": 0.9067,
+    "correct": false
+  },
+  {
+    "text": "I use it mostly for content creation -LRB- Audio , video , photo editing -RRB- and its reliable .",
+    "aspect": "photo editing",
+    "true": "positive",
+    "pred": "neutral",
+    "confidence": 0.8978,
+    "correct": false
+  },
+  {
+    "text": "Screen is bright and gorgeous .",
+    "aspect": "Screen",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.974,
+    "correct": true
+  },
+  {
+    "text": "The only solution is to turn the brightness down , etc. .",
+    "aspect": "brightness",
+    "true": "neutral",
+    "pred": "negative",
+    "confidence": 0.857,
+    "correct": false
+  },
+  {
+    "text": "If you want more information on macs I suggest going to apple.com and heading towards the macbook page for more information on the applications .",
+    "aspect": "applications",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.9247,
+    "correct": true
+  },
+  {
+    "text": "It is robust , with a friendly use as all Apple products .",
+    "aspect": "use",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9649,
+    "correct": true
+  },
+  {
+    "text": "It is fast and easy to use .",
+    "aspect": "use",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9763,
+    "correct": true
+  },
+  {
+    "text": "And the fact that it comes with an i5 processor definitely speeds things up",
+    "aspect": "i5 processor",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9181,
+    "correct": true
+  },
+  {
+    "text": "I have been PC for years but this computer is intuitive and its built in features are a great help",
+    "aspect": "built in features",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9603,
+    "correct": true
+  },
+  {
+    "text": "Nice screen , keyboard works great !",
+    "aspect": "screen",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9742,
+    "correct": true
+  },
+  {
+    "text": "Nice screen , keyboard works great !",
+    "aspect": "keyboard",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9743,
+    "correct": true
+  },
+  {
+    "text": "I was amazed at how fast the delivery was .",
+    "aspect": "delivery",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9323,
+    "correct": true
+  },
+  {
+    "text": "I 've installed to it additional SSD and 16Gb RAM .",
+    "aspect": "SSD",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.8048,
+    "correct": true
+  },
+  {
+    "text": "I 've installed to it additional SSD and 16Gb RAM .",
+    "aspect": "16Gb RAM",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.8148,
+    "correct": true
+  },
+  {
+    "text": "The memory was gone and it was not able to be used .",
+    "aspect": "memory",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.9558,
+    "correct": true
+  },
+  {
+    "text": "It works great and I am so happy I bought it .",
+    "aspect": "works",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9548,
+    "correct": true
+  },
+  {
+    "text": "I like the design and ease of use with the keyboard , plenty of ports .",
+    "aspect": "design",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9714,
+    "correct": true
+  },
+  {
+    "text": "I like the design and ease of use with the keyboard , plenty of ports .",
+    "aspect": "keyboard",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9692,
+    "correct": true
+  },
+  {
+    "text": "I like the design and ease of use with the keyboard , plenty of ports .",
+    "aspect": "ports",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9717,
+    "correct": true
+  },
+  {
+    "text": "it definitely beats my old mac and the service was great .",
+    "aspect": "service",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.965,
+    "correct": true
+  },
+  {
+    "text": "Web browsing is very quick with Safari browser .",
+    "aspect": "Web browsing",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9372,
+    "correct": true
+  },
+  {
+    "text": "Web browsing is very quick with Safari browser .",
+    "aspect": "Safari browser",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9285,
+    "correct": true
+  },
+  {
+    "text": "I like the lighted screen at night .",
+    "aspect": "lighted screen",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.8771,
+    "correct": true
+  },
+  {
+    "text": "It is really easy to use and it is quick to start up .",
+    "aspect": "use",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.968,
+    "correct": true
+  },
+  {
+    "text": "It is really easy to use and it is quick to start up .",
+    "aspect": "start up",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9694,
+    "correct": true
+  },
+  {
+    "text": "I 've lived with the crashes and slow operation and restarts .",
+    "aspect": "operation",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.9501,
+    "correct": true
+  },
+  {
+    "text": "USB3 Peripherals are noticably less expensive than the ThunderBolt ones .",
+    "aspect": "USB3 Peripherals",
+    "true": "positive",
+    "pred": "negative",
+    "confidence": 0.8636,
+    "correct": false
+  },
+  {
+    "text": "USB3 Peripherals are noticably less expensive than the ThunderBolt ones .",
+    "aspect": "ThunderBolt",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.8532,
+    "correct": true
+  },
+  {
+    "text": "And mine had broke but I sent it in under warranty - no problems .",
+    "aspect": "warranty",
+    "true": "positive",
+    "pred": "neutral",
+    "confidence": 0.5403,
+    "correct": false
+  },
+  {
+    "text": "It 's fast , light , and is perfect for media editing , which is mostly why I bought it in the first place .",
+    "aspect": "media editing",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9678,
+    "correct": true
+  },
+  {
+    "text": "The battery lasts as advertised -LRB- give or take 15-20 minutes -RRB- , and the entire user experience is very elegant .",
+    "aspect": "battery",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9198,
+    "correct": true
+  },
+  {
+    "text": "The battery lasts as advertised -LRB- give or take 15-20 minutes -RRB- , and the entire user experience is very elegant .",
+    "aspect": "user experience",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9408,
+    "correct": true
+  },
+  {
+    "text": "Thanks for the fast shipment and great price .",
+    "aspect": "shipment",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9748,
+    "correct": true
+  },
+  {
+    "text": "Thanks for the fast shipment and great price .",
+    "aspect": "price",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9761,
+    "correct": true
+  },
+  {
+    "text": "! Excelent performance , usability , presentation and time response .",
+    "aspect": "performance",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9616,
+    "correct": true
+  },
+  {
+    "text": "! Excelent performance , usability , presentation and time response .",
+    "aspect": "usability",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9566,
+    "correct": true
+  },
+  {
+    "text": "! Excelent performance , usability , presentation and time response .",
+    "aspect": "presentation",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9588,
+    "correct": true
+  },
+  {
+    "text": "! Excelent performance , usability , presentation and time response .",
+    "aspect": "time response",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9586,
+    "correct": true
+  },
+  {
+    "text": "The smaller size was a bonus because of space restrictions .",
+    "aspect": "size",
+    "true": "positive",
+    "pred": "negative",
+    "confidence": 0.5583,
+    "correct": false
+  },
+  {
+    "text": "I blame the Mac OS .",
+    "aspect": "Mac OS",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.9092,
+    "correct": true
+  },
+  {
+    "text": "In fact I still use many Legacy programs -LRB- Appleworks , FileMaker Pro , Quicken , Photoshop etc -RRB- !",
+    "aspect": "Legacy programs",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.8798,
+    "correct": true
+  },
+  {
+    "text": "In fact I still use manyLegacy programs -LRB- Appleworks , FileMaker Pro , Quicken , Photoshop etc -RRB- !",
+    "aspect": "Appleworks",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.9174,
+    "correct": true
+  },
+  {
+    "text": "In fact I still use manyLegacy programs -LRB- Appleworks , FileMaker Pro , Quicken , Photoshop etc -RRB- !",
+    "aspect": "FileMaker Pro",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.9154,
+    "correct": true
+  },
+  {
+    "text": "In fact I still use manyLegacy programs -LRB- Appleworks , FileMaker Pro , Quicken , Photoshop etc -RRB- !",
+    "aspect": "Quicken",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.9062,
+    "correct": true
+  },
+  {
+    "text": "In fact I still use manyLegacy programs -LRB- Appleworks , FileMaker Pro , Quicken , Photoshop etc -RRB- !",
+    "aspect": "Photoshop",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.9144,
+    "correct": true
+  },
+  {
+    "text": "I like the operating system .",
+    "aspect": "operating system",
+    "true": "positive",
+    "pred": "neutral",
+    "confidence": 0.5126,
+    "correct": false
+  },
+  {
+    "text": "I love the form factor .",
+    "aspect": "form factor",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.939,
+    "correct": true
+  },
+  {
+    "text": "It 's fast at loading the internet .",
+    "aspect": "loading the internet",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9448,
+    "correct": true
+  },
+  {
+    "text": "So much faster and sleeker looking .",
+    "aspect": "looking",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9664,
+    "correct": true
+  },
+  {
+    "text": "Unfortunately , it runs XP and Microsoft is dropping support next April .",
+    "aspect": "XP",
+    "true": "neutral",
+    "pred": "negative",
+    "confidence": 0.9082,
+    "correct": false
+  },
+  {
+    "text": "Unfortunately , it runs XP and Microsoft is dropping support next April .",
+    "aspect": "support",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.9013,
+    "correct": true
+  },
+  {
+    "text": "First off , I really do like my MBP ... once used to the OS it is pretty easy to get around , and the overall build is great ... eg the keyboard is one of the best to type on .",
+    "aspect": "OS",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9336,
+    "correct": true
+  },
+  {
+    "text": "First off , I really do like my MBP ... once used to the OS it is pretty easy to get around , and the overall build is great ... eg the keyboard is one of the best to type on .",
+    "aspect": "overall build",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9515,
+    "correct": true
+  },
+  {
+    "text": "First off , I really do like my MBP ... once used to the OS it is pretty easy to get around , and the overall build is great ... eg the keyboard is one of the best to type on .",
+    "aspect": "keyboard",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9412,
+    "correct": true
+  },
+  {
+    "text": "It is made of such solid construction and since I have never had a Mac using my iPhone helped me get used to the system a bit .",
+    "aspect": "construction",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9301,
+    "correct": true
+  },
+  {
+    "text": "It is made of such solid construction and since I have never had a Mac using my iPhone helped me get used to the system a bit .",
+    "aspect": "system",
+    "true": "neutral",
+    "pred": "positive",
+    "confidence": 0.8257,
+    "correct": false
+  },
+  {
+    "text": "Very nice unibody construction .",
+    "aspect": "unibody construction",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9714,
+    "correct": true
+  },
+  {
+    "text": "This Macbook Pro is fast , powerful , and runs super quiet and cool .",
+    "aspect": "runs",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9722,
+    "correct": true
+  },
+  {
+    "text": "It 's ok but does n't have a disk drive which I did n't know until after I bought it .",
+    "aspect": "disk drive",
+    "true": "neutral",
+    "pred": "negative",
+    "confidence": 0.7772,
+    "correct": false
+  },
+  {
+    "text": "There is no HDMI receptacle , nor is there an SD card slot located anywhere on the device .",
+    "aspect": "HDMI receptacle",
+    "true": "neutral",
+    "pred": "negative",
+    "confidence": 0.7333,
+    "correct": false
+  },
+  {
+    "text": "There is no HDMI receptacle , nor is there an SD card slot located anywhere on the device .",
+    "aspect": "SD card slot",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.5114,
+    "correct": true
+  },
+  {
+    "text": "It came in brand new and works perfectly .",
+    "aspect": "works",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9672,
+    "correct": true
+  },
+  {
+    "text": "It should n't happen like that , I do n't have any design app open or anything .",
+    "aspect": "design app",
+    "true": "neutral",
+    "pred": "negative",
+    "confidence": 0.7977,
+    "correct": false
+  },
+  {
+    "text": "MY TRACKPAD IS NOT WORKING .",
+    "aspect": "TRACKPAD",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.9515,
+    "correct": true
+  },
+  {
+    "text": "It looks and feels solid , with a flawless finish .",
+    "aspect": "finish",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9711,
+    "correct": true
+  },
+  {
+    "text": "It looks and feels solid , with a flawless finish .",
+    "aspect": "looks",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9728,
+    "correct": true
+  },
+  {
+    "text": "It looks and feels solid , with a flawless finish .",
+    "aspect": "feels",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9718,
+    "correct": true
+  },
+  {
+    "text": "Price was higher when purchased on MAC when compared to price showing on PC when I bought this product .",
+    "aspect": "Price",
+    "true": "negative",
+    "pred": "positive",
+    "confidence": 0.5458,
+    "correct": false
+  },
+  {
+    "text": "Price was higher when purchased on MAC when compared to price showing on PC when I bought this product .",
+    "aspect": "price",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.5458,
+    "correct": true
+  },
+  {
+    "text": "Then the system would many times not power down without a forced power-off .",
+    "aspect": "system",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.9368,
+    "correct": true
+  },
+  {
+    "text": "Then the system would many times not power down without a forced power-off .",
+    "aspect": "power down",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.9419,
+    "correct": true
+  },
+  {
+    "text": "The configuration is perfect for my needs .",
+    "aspect": "configuration",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9599,
+    "correct": true
+  },
+  {
+    "text": "and the speakers is the worst ever .",
+    "aspect": "speakers",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.9602,
+    "correct": true
+  },
+  {
+    "text": "Its the best , its got the looks , super easy to use and love all you can do with the trackpad ! . .",
+    "aspect": "looks",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9738,
+    "correct": true
+  },
+  {
+    "text": "Its the best , its got the looks , super easy to use and love all you can do with the trackpad ! . .",
+    "aspect": "use",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9734,
+    "correct": true
+  },
+  {
+    "text": "Its the best , its got the looks , super easy to use and love all you can do with the trackpad ! . .",
+    "aspect": "trackpad",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9715,
+    "correct": true
+  },
+  {
+    "text": "Web surfuring is smooth and seamless .",
+    "aspect": "Web surfuring",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9692,
+    "correct": true
+  },
+  {
+    "text": "I 'm overall pleased with the interface and the portability of this product .",
+    "aspect": "interface",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9397,
+    "correct": true
+  },
+  {
+    "text": "I 'm overall pleased with the interface and the portability of this product .",
+    "aspect": "portability",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9463,
+    "correct": true
+  },
+  {
+    "text": "This item is a beautiful piece , it works well , it is easy to carry and handle .",
+    "aspect": "works",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9722,
+    "correct": true
+  },
+  {
+    "text": "This item is a beautiful piece , it works well , it is easy to carry and handle .",
+    "aspect": "carry",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9714,
+    "correct": true
+  },
+  {
+    "text": "This item is a beautiful piece , it works well , it is easy to carry and handle .",
+    "aspect": "handle",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.971,
+    "correct": true
+  },
+  {
+    "text": "It was also suffering from hardware -LRB- keyboard -RRB- issues , relatively slow performance and shortening battery lifetime .",
+    "aspect": "performance",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.9482,
+    "correct": true
+  },
+  {
+    "text": "It was also suffering from hardware -LRB- keyboard -RRB- issues , relatively slow performance and shortening battery lifetime .",
+    "aspect": "battery lifetime",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.9471,
+    "correct": true
+  },
+  {
+    "text": "It was also suffering from hardware (keyboard) issues , relatively slow performance and shortening battery lifetime .",
+    "aspect": "hardware (keyboard)",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.9516,
+    "correct": true
+  },
+  {
+    "text": "Runs good and does the job , ca n't complain about that !",
+    "aspect": "Runs",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9337,
+    "correct": true
+  },
+  {
+    "text": "It 's silent and has a very small footprint on my desk .",
+    "aspect": "footprint",
+    "true": "positive",
+    "pred": "negative",
+    "confidence": 0.8946,
+    "correct": false
+  },
+  {
+    "text": "The exterior is absolutely gorgeous .",
+    "aspect": "exterior",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9659,
+    "correct": true
+  },
+  {
+    "text": "It has a very high performance , just for what I needed for .",
+    "aspect": "performance",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9614,
+    "correct": true
+  },
+  {
+    "text": "Apple is aware of this issue and this is either old stock or a defective design involving the intel 4000 graphics chipset .",
+    "aspect": "intel 4000 graphics chipset",
+    "true": "neutral",
+    "pred": "negative",
+    "confidence": 0.8825,
+    "correct": false
+  },
+  {
+    "text": "Apple is aware of this issue and this is either old stock or a defective design involving the intel 4000 graphics chipset .",
+    "aspect": "design",
+    "true": "neutral",
+    "pred": "negative",
+    "confidence": 0.9019,
+    "correct": false
+  },
+  {
+    "text": "OSX Mountain Lion soon to upgrade to Mavericks .",
+    "aspect": "OSX Mountain Lion",
+    "true": "neutral",
+    "pred": "negative",
+    "confidence": 0.6966,
+    "correct": false
+  },
+  {
+    "text": "OSX Mountain Lion soon to upgrade to Mavericks .",
+    "aspect": "Mavericks",
+    "true": "neutral",
+    "pred": "negative",
+    "confidence": 0.6417,
+    "correct": false
+  },
+  {
+    "text": "I just bought the new MacBook Pro , the 13 '' model , and I ca n't believe Apple keeps making the same mistake with regard to USB ports .",
+    "aspect": "USB ports",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.4449,
+    "correct": true
+  },
+  {
+    "text": "It wakes in less than a second when I open the lid .",
+    "aspect": "lid",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.5232,
+    "correct": true
+  },
+  {
+    "text": "It wakes in less than a second when I open the lid .",
+    "aspect": "wakes",
+    "true": "positive",
+    "pred": "neutral",
+    "confidence": 0.4997,
+    "correct": false
+  },
+  {
+    "text": "It is the perfect size and speed for me .",
+    "aspect": "size",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9725,
+    "correct": true
+  },
+  {
+    "text": "It is the perfect size and speed for me .",
+    "aspect": "speed",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9746,
+    "correct": true
+  },
+  {
+    "text": "THE CUSTOMER SERVICE IS TERRIFIC !!",
+    "aspect": "CUSTOMER SERVICE",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9601,
+    "correct": true
+  },
+  {
+    "text": "My last laptop was a 17 '' ASUS gaming machine , which performed admirably , but having since built my own desktop and really settling into the college life , I found myself wanting something smaller and less cumbersome , not to mention that the ASUS had been slowly developing problems ever since I bought it about 4 years ago .",
+    "aspect": "performed",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.653,
+    "correct": true
+  },
+  {
+    "text": "However , it did not have any scratches , ZERO battery cycle count -LRB- pretty surprised -RRB- , and all the hardware seemed to be working perfectly .",
+    "aspect": "battery cycle count",
+    "true": "positive",
+    "pred": "negative",
+    "confidence": 0.4753,
+    "correct": false
+  },
+  {
+    "text": "However , it did not have any scratches , ZERO battery cycle count -LRB- pretty surprised -RRB- , and all the hardware seemed to be working perfectly .",
+    "aspect": "hardware",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.5969,
+    "correct": true
+  },
+  {
+    "text": "After fumbling around with the OS I started searching the internet for a fix and found a number of forums on fixing the issue .",
+    "aspect": "OS",
+    "true": "negative",
+    "pred": "neutral",
+    "confidence": 0.8818,
+    "correct": false
+  },
+  {
+    "text": "And as for all the fancy finger swipes -- I just gave up and attached a mouse .",
+    "aspect": "finger swipes",
+    "true": "negative",
+    "pred": "positive",
+    "confidence": 0.4592,
+    "correct": false
+  },
+  {
+    "text": "And as for all the fancy finger swipes -- I just gave up and attached a mouse .",
+    "aspect": "mouse",
+    "true": "neutral",
+    "pred": "negative",
+    "confidence": 0.6688,
+    "correct": false
+  },
+  {
+    "text": "I needed a laptop with big storage , a nice screen and fast so I can photoshop without any problem .",
+    "aspect": "storage",
+    "true": "neutral",
+    "pred": "positive",
+    "confidence": 0.9624,
+    "correct": false
+  },
+  {
+    "text": "I needed a laptop with big storage , a nice screen and fast so I can photoshop without any problem .",
+    "aspect": "screen",
+    "true": "neutral",
+    "pred": "positive",
+    "confidence": 0.9652,
+    "correct": false
+  },
+  {
+    "text": "I needed a laptop with big storage , a nice screen and fast so I can photoshop without any problem .",
+    "aspect": "photoshop",
+    "true": "neutral",
+    "pred": "positive",
+    "confidence": 0.9477,
+    "correct": false
+  },
+  {
+    "text": "I like coming back to Mac OS but this laptop is lacking in speaker quality compared to my $ 400 old HP laptop .",
+    "aspect": "Mac OS",
+    "true": "positive",
+    "pred": "negative",
+    "confidence": 0.9325,
+    "correct": false
+  },
+  {
+    "text": "I like coming back to Mac OS but this laptop is lacking in speaker quality compared to my $ 400 old HP laptop .",
+    "aspect": "speaker quality",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.9439,
+    "correct": true
+  },
+  {
+    "text": "Shipped very quickly and safely .",
+    "aspect": "Shipped",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9486,
+    "correct": true
+  },
+  {
+    "text": "The thunderbolt port is awesome !",
+    "aspect": "thunderbolt port",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9518,
+    "correct": true
+  },
+  {
+    "text": "The performance is definitely superior to any computer I 've ever put my hands on .",
+    "aspect": "performance",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9425,
+    "correct": true
+  },
+  {
+    "text": "It 's great for streaming video and other entertainment uses .",
+    "aspect": "streaming video",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9567,
+    "correct": true
+  },
+  {
+    "text": "It 's great for streaming video and other entertainment uses .",
+    "aspect": "entertainment uses",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9475,
+    "correct": true
+  },
+  {
+    "text": "I like the design and its features but there are somethings I think needs to be improved .",
+    "aspect": "design",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.8078,
+    "correct": true
+  },
+  {
+    "text": "I like the design and its features but there are somethings I think needs to be improved .",
+    "aspect": "features",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.7857,
+    "correct": true
+  },
+  {
+    "text": "There were small problems with Mac office .",
+    "aspect": "Mac office",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.8779,
+    "correct": true
+  },
+  {
+    "text": "I understand I should call Apple Tech Support about any variables -LRB- which is my purpose of writing this con -RRB- as variables could be a bigger future problem .",
+    "aspect": "Apple Tech Support",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.7843,
+    "correct": true
+  },
+  {
+    "text": "I ordered my 2012 mac mini after being disappointed with spec of the new 27 '' Imacs .",
+    "aspect": "spec",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.7712,
+    "correct": true
+  },
+  {
+    "text": "It still works and it 's extremely user friendly , so I would recommend it for new computer user and also for those who are just looking for a more efficient way to do things",
+    "aspect": "works",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9132,
+    "correct": true
+  },
+  {
+    "text": "Its fast , easy to use and it looks great .",
+    "aspect": "use",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9779,
+    "correct": true
+  },
+  {
+    "text": "Its fast , easy to use and it looks great .",
+    "aspect": "looks",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.978,
+    "correct": true
+  },
+  {
+    "text": "-LRB- but Office can be purchased -RRB- IF I ever need a laptop again I am for sure purchasing another Toshiba !!",
+    "aspect": "Office",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.6218,
+    "correct": true
+  },
+  {
+    "text": "I have n't tried the one with retina display ... Maybe in the future .",
+    "aspect": "retina display",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.5139,
+    "correct": true
+  },
+  {
+    "text": "Performance is much much better on the Pro , especially if you install an SSD on it .",
+    "aspect": "Performance",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.6899,
+    "correct": true
+  },
+  {
+    "text": "Performance is much much better on the Pro , especially if you install an SSD on it .",
+    "aspect": "SSD",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.5888,
+    "correct": true
+  },
+  {
+    "text": "Note , however , that any existing MagSafe accessories you have will not work with the MagSafe 2 connection .",
+    "aspect": "MagSafe accessories",
+    "true": "neutral",
+    "pred": "negative",
+    "confidence": 0.6726,
+    "correct": false
+  },
+  {
+    "text": "Note , however , that any existing MagSafe accessories you have will not work with the MagSafe 2 connection .",
+    "aspect": "MagSafe 2 connection",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.693,
+    "correct": true
+  },
+  {
+    "text": "The only thing I dislike is the touchpad , alot of the times its unresponsive and does things I dont want it too , I would recommend using a mouse with it .",
+    "aspect": "touchpad",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.9175,
+    "correct": true
+  },
+  {
+    "text": "The only thing I dislike is the touchpad , alot of the times its unresponsive and does things I dont want it too , I would recommend using a mouse with it .",
+    "aspect": "mouse",
+    "true": "neutral",
+    "pred": "negative",
+    "confidence": 0.9151,
+    "correct": false
+  },
+  {
+    "text": "The Mac mini is about 8x smaller than my old computer which is a huge bonus and runs very quiet , actually the fans are n't audible unlike my old pc",
+    "aspect": "runs",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.4923,
+    "correct": true
+  },
+  {
+    "text": "The Mac mini is about 8x smaller than my old computer which is a huge bonus and runs very quiet , actually the fans are n't audible unlike my old pc",
+    "aspect": "fans",
+    "true": "positive",
+    "pred": "negative",
+    "confidence": 0.8039,
+    "correct": false
+  },
+  {
+    "text": "MAYBE The Mac OS improvement were not The product they Want to offer .",
+    "aspect": "Mac OS",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.8669,
+    "correct": true
+  },
+  {
+    "text": "I thought the transition would be difficult at best and would take some time to fully familiarize myself with the new Mac ecosystem .",
+    "aspect": "Mac ecosystem",
+    "true": "neutral",
+    "pred": "negative",
+    "confidence": 0.4546,
+    "correct": false
+  },
+  {
+    "text": "It 's absolutely wonderful and worth the price !",
+    "aspect": "price",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9627,
+    "correct": true
+  },
+  {
+    "text": "I am please with the products ease of use ; out of the box ready ; appearance and functionality .",
+    "aspect": "use",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9607,
+    "correct": true
+  },
+  {
+    "text": "I am please with the products ease of use ; out of the box ready ; appearance and functionality .",
+    "aspect": "appearance",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9594,
+    "correct": true
+  },
+  {
+    "text": "I am please with the products ease of use ; out of the box ready ; appearance and functionality .",
+    "aspect": "functionality",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9528,
+    "correct": true
+  },
+  {
+    "text": "Perfect for all my graphic design classes I 'm taking this year in college : - -RRB-",
+    "aspect": "graphic design",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.832,
+    "correct": true
+  },
+  {
+    "text": "I will not be using that slot again .",
+    "aspect": "slot",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.8505,
+    "correct": true
+  },
+  {
+    "text": "The OS is fast and fluid , everything is organized and it 's just beautiful .",
+    "aspect": "OS",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9733,
+    "correct": true
+  },
+  {
+    "text": "They are simpler to use .",
+    "aspect": "use",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.7087,
+    "correct": true
+  },
+  {
+    "text": "! so nice . . stable . . fast . . now i got my SSD !",
+    "aspect": "SSD",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9542,
+    "correct": true
+  },
+  {
+    "text": "Also , in using the built-in camera , my voice recording for my vlog sounds like the interplanetary transmissions in the `` Star Wars '' saga .",
+    "aspect": "built-in camera",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.8131,
+    "correct": true
+  },
+  {
+    "text": "Also , in using the built-in camera , my voice recording for my vlog sounds like the interplanetary transmissions in the `` Star Wars '' saga .",
+    "aspect": "voice recording",
+    "true": "negative",
+    "pred": "neutral",
+    "confidence": 0.8302,
+    "correct": false
+  },
+  {
+    "text": "I love the quick start up .",
+    "aspect": "start up",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9651,
+    "correct": true
+  },
+  {
+    "text": "You just can not beat the functionality of an Apple device .",
+    "aspect": "functionality",
+    "true": "positive",
+    "pred": "negative",
+    "confidence": 0.7093,
+    "correct": false
+  },
+  {
+    "text": "Yet my mac continues to function properly .",
+    "aspect": "function",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.7325,
+    "correct": true
+  },
+  {
+    "text": "Graphics are much improved .",
+    "aspect": "Graphics",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9122,
+    "correct": true
+  },
+  {
+    "text": "Here are the things that made me confident with my purchase : Build Quality - Seriously , you ca n't beat a unibody construction .",
+    "aspect": "Build Quality",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9107,
+    "correct": true
+  },
+  {
+    "text": "Here are the things that made me confident with my purchase : Build Quality - Seriously , you ca n't beat a unibody construction .",
+    "aspect": "unibody construction",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.898,
+    "correct": true
+  },
+  {
+    "text": "It provides much more flexibility for connectivity .",
+    "aspect": "flexibility for connectivity",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.8796,
+    "correct": true
+  },
+  {
+    "text": "I want the portability of a tablet , without the limitations of a tablet and that 's where this laptop comes into play .",
+    "aspect": "portability",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.8963,
+    "correct": true
+  },
+  {
+    "text": "Mac tutorials do help .",
+    "aspect": "Mac tutorials",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.5004,
+    "correct": true
+  },
+  {
+    "text": "The technical support was not helpful as well .",
+    "aspect": "technical support",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.9488,
+    "correct": true
+  },
+  {
+    "text": "I got the new adapter and there was no change .",
+    "aspect": "adapter",
+    "true": "neutral",
+    "pred": "positive",
+    "confidence": 0.7204,
+    "correct": false
+  },
+  {
+    "text": "so i called technical support .",
+    "aspect": "technical support",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.8736,
+    "correct": true
+  },
+  {
+    "text": "Came with iPhoto and garage band already loaded .",
+    "aspect": "iPhoto",
+    "true": "neutral",
+    "pred": "positive",
+    "confidence": 0.4779,
+    "correct": false
+  },
+  {
+    "text": "Came with iPhoto and garage band already loaded .",
+    "aspect": "garage band",
+    "true": "neutral",
+    "pred": "positive",
+    "confidence": 0.5881,
+    "correct": false
+  },
+  {
+    "text": "Logic board utterly fried , cried , and laid down and died .",
+    "aspect": "Logic board",
+    "true": "positive",
+    "pred": "negative",
+    "confidence": 0.945,
+    "correct": false
+  },
+  {
+    "text": "The sound was crappy even when you turn up the volume still the same results .",
+    "aspect": "sound",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.9421,
+    "correct": true
+  },
+  {
+    "text": "The sound was crappy even when you turn up the volume still the same results .",
+    "aspect": "volume",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.931,
+    "correct": true
+  },
+  {
+    "text": "OSX Lion is a great performer . . extremely fast and reliable .",
+    "aspect": "OSX Lion",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9694,
+    "correct": true
+  },
+  {
+    "text": "Having heard from friends and family about how reliable a Mac product is , I never expected to have an application crash within the first month , but I did .",
+    "aspect": "application",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.4901,
+    "correct": true
+  },
+  {
+    "text": "The Macbook pro 's physical form is wonderful .",
+    "aspect": "physical form",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.973,
+    "correct": true
+  },
+  {
+    "text": "The Mini 's body has n't changed since late 2010 - and for a good reason .",
+    "aspect": "body",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.878,
+    "correct": true
+  },
+  {
+    "text": "The unibody construction really does feel lot more solid than Apple 's previous laptops .",
+    "aspect": "unibody construction",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9088,
+    "correct": true
+  },
+  {
+    "text": "3D rendering slows it down considerably .",
+    "aspect": "3D rendering",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.8404,
+    "correct": true
+  },
+  {
+    "text": "Got this Mac Mini with OS X Mountain Lion for my wife .",
+    "aspect": "OS X Mountain Lion",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.7225,
+    "correct": true
+  },
+  {
+    "text": "fast , great screen , beautiful apps for a laptop ; priced at 1100 on the apple website ; amazon had it for 1098 + tax - plus i had a 10 % off coupon from amazon-cost me 998 plus tax - 1070 - OTD !",
+    "aspect": "screen",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9724,
+    "correct": true
+  },
+  {
+    "text": "fast , great screen , beautiful apps for a laptop ; priced at 1100 on the apple website ; amazon had it for 1098 + tax - plus i had a 10 % off coupon from amazon-cost me 998 plus tax - 1070 - OTD !",
+    "aspect": "apps",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9697,
+    "correct": true
+  },
+  {
+    "text": "fast , great screen , beautiful apps for a laptop ; priced at 1100 on the apple website ; amazon had it for 1098 + tax - plus i had a 10 % off coupon from amazon-cost me 998 plus tax - 1070 - OTD !",
+    "aspect": "priced",
+    "true": "neutral",
+    "pred": "positive",
+    "confidence": 0.9672,
+    "correct": false
+  },
+  {
+    "text": "fast , great screen , beautiful apps for a laptop ; priced at 1100 on the apple website ; amazon had it for 1098 + tax - plus i had a 10 % off coupon from amazon - cost me 998 plus tax - 1070 - OTD !",
+    "aspect": "cost",
+    "true": "neutral",
+    "pred": "positive",
+    "confidence": 0.9663,
+    "correct": false
+  },
+  {
+    "text": "12.44 seconds to boot .",
+    "aspect": "boot",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.6678,
+    "correct": true
+  },
+  {
+    "text": "All the ports are much needed since this is my main computer .",
+    "aspect": "ports",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.4377,
+    "correct": true
+  },
+  {
+    "text": "The Like New condition of the iMac MC309LL/A on Amazon is at $ 900 + level only , and it is a Quad-Core 2.5 GHz CPU -LRB- similar to the $ 799 Mini -RRB- , with Radeon HD 6750M 512MB graphic card -LRB- this mini is integrated Intel 4000 card -RRB- , and it even comes with wireless Apple Keyboard and Mouse , all put together in neat and nice package .",
+    "aspect": "Quad-Core 2.5 GHz CPU",
+    "true": "neutral",
+    "pred": "positive",
+    "confidence": 0.708,
+    "correct": false
+  },
+  {
+    "text": "The Like New condition of the iMac MC309LL/A on Amazon is at $ 900 + level only , and it is a Quad-Core 2.5 GHz CPU -LRB- similar to the $ 799 Mini -RRB- , with Radeon HD 6750M 512MB graphic card -LRB- this mini is integrated Intel 4000 card -RRB- , and it even comes with wireless Apple Keyboard and Mouse , all put together in neat and nice package .",
+    "aspect": "Radeon HD 6750M 512MB graphic card",
+    "true": "neutral",
+    "pred": "positive",
+    "confidence": 0.7097,
+    "correct": false
+  },
+  {
+    "text": "The Like New condition of the iMac MC309LL/A on Amazon is at $ 900 + level only , and it is a Quad-Core 2.5 GHz CPU -LRB- similar to the $ 799 Mini -RRB- , with Radeon HD 6750M 512MB graphic card -LRB- this mini is integrated Intel 4000 card -RRB- , and it even comes with wireless Apple Keyboard and Mouse , all put together in neat and nice package .",
+    "aspect": "integrated Intel 4000 card",
+    "true": "neutral",
+    "pred": "positive",
+    "confidence": 0.7259,
+    "correct": false
+  },
+  {
+    "text": "The Like New condition of the iMac MC309LL/A on Amazon is at $ 900 + level only , and it is a Quad-Core 2.5 GHz CPU -LRB- similar to the $ 799 Mini -RRB- , with Radeon HD 6750M 512MB graphic card -LRB- this mini is integrated Intel 4000 card -RRB- , and it even comes with wireless Apple Keyboard and Mouse , all put together in neat and nice package .",
+    "aspect": "wireless Apple Keyboard and Mouse",
+    "true": "neutral",
+    "pred": "positive",
+    "confidence": 0.7808,
+    "correct": false
+  },
+  {
+    "text": "The Like New condition of the iMac MC309LL/A on Amazon is at $ 900 + level only , and it is a Quad-Core 2.5 GHz CPU -LRB- similar to the $ 799 Mini -RRB- , with Radeon HD 6750M 512MB graphic card -LRB- this mini is integrated Intel 4000 card -RRB- , and it even comes with wireless Apple Keyboard and Mouse , all put together in neat and nice package .",
+    "aspect": "package",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.8483,
+    "correct": true
+  },
+  {
+    "text": "Put a cover on it and is a little better but that is my only complaint .",
+    "aspect": "cover",
+    "true": "neutral",
+    "pred": "positive",
+    "confidence": 0.426,
+    "correct": false
+  },
+  {
+    "text": "Within a few hours I was using the gestures unconsciously .",
+    "aspect": "gestures",
+    "true": "positive",
+    "pred": "neutral",
+    "confidence": 0.4789,
+    "correct": false
+  },
+  {
+    "text": "This mac does come with an extender cable and I 'm using mine right now hoping the cable will stay nice for the many years I plan on using this mac .",
+    "aspect": "extender cable",
+    "true": "neutral",
+    "pred": "positive",
+    "confidence": 0.5052,
+    "correct": false
+  },
+  {
+    "text": "This mac does come with an extender cable and I 'm using mine right now hoping the cable will stay nice for the many years I plan on using this mac .",
+    "aspect": "cable",
+    "true": "positive",
+    "pred": "neutral",
+    "confidence": 0.5139,
+    "correct": false
+  },
+  {
+    "text": "The 2.9ghz dual-core i7 chip really out does itself .",
+    "aspect": "2.9ghz dual-core i7 chip",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.8925,
+    "correct": true
+  },
+  {
+    "text": "It is pretty snappy and starts up in about 30 seconds which is good enough for me .",
+    "aspect": "starts up",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9262,
+    "correct": true
+  },
+  {
+    "text": "Not sure on Windows 8 .",
+    "aspect": "Windows 8",
+    "true": "neutral",
+    "pred": "negative",
+    "confidence": 0.8437,
+    "correct": false
+  },
+  {
+    "text": "My one complaint is that there was no internal CD drive .",
+    "aspect": "internal CD drive",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.8866,
+    "correct": true
+  },
+  {
+    "text": "This newer netbook has no hard drive or network lights .",
+    "aspect": "hard drive",
+    "true": "neutral",
+    "pred": "negative",
+    "confidence": 0.6883,
+    "correct": false
+  },
+  {
+    "text": "This newer netbook has no hard drive or network lights .",
+    "aspect": "network lights",
+    "true": "neutral",
+    "pred": "negative",
+    "confidence": 0.7655,
+    "correct": false
+  },
+  {
+    "text": "I was having a though time deciding between the 13 '' MacBook Air or the MacBook Pro 13 '' -LRB- Both baseline models , priced at 1,200 $ retail -RRB-",
+    "aspect": "priced",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.6133,
+    "correct": true
+  },
+  {
+    "text": "Not too expense and has enough storage for most users and many ports .",
+    "aspect": "storage",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.92,
+    "correct": true
+  },
+  {
+    "text": "Not too expense and has enough storage for most users and many ports .",
+    "aspect": "ports",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9124,
+    "correct": true
+  },
+  {
+    "text": "The audio volume is quite low and virtually unusable in a room with any background activity .",
+    "aspect": "audio volume",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.9562,
+    "correct": true
+  },
+  {
+    "text": "It is lightweight and the perfect size to carry to class .",
+    "aspect": "size",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9727,
+    "correct": true
+  },
+  {
+    "text": "I was given a demonstration of Windows 8 .",
+    "aspect": "Windows 8",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.8012,
+    "correct": true
+  },
+  {
+    "text": "The MBP is beautiful has many wonderful capabilities .",
+    "aspect": "capabilities",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9755,
+    "correct": true
+  },
+  {
+    "text": "I thought that it will be fine , if i do some settings .",
+    "aspect": "settings",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.8364,
+    "correct": true
+  },
+  {
+    "text": "Runs very smoothly .",
+    "aspect": "Runs",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9551,
+    "correct": true
+  },
+  {
+    "text": "Boot-up slowed significantly after all Windows updates were installed .",
+    "aspect": "Boot-up",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.861,
+    "correct": true
+  },
+  {
+    "text": "Boot-up slowed significantly after all Windows updates were installed .",
+    "aspect": "Windows updates",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.7442,
+    "correct": true
+  },
+  {
+    "text": "More likely it will require replacing the logic board once they admit they have a problem and come up with a solution .",
+    "aspect": "logic board",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.587,
+    "correct": true
+  },
+  {
+    "text": "It was important that it was powerful enough to do all of the tasks he needed on the internet , word processing , graphic design and gaming .",
+    "aspect": "internet",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.6192,
+    "correct": true
+  },
+  {
+    "text": "It was important that it was powerful enough to do all of the tasks he needed on the internet , word processing , graphic design and gaming .",
+    "aspect": "word processing",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.5831,
+    "correct": true
+  },
+  {
+    "text": "It was important that it was powerful enough to do all of the tasks he needed on the internet , word processing , graphic design and gaming .",
+    "aspect": "graphic design",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.6424,
+    "correct": true
+  },
+  {
+    "text": "It was important that it was powerful enough to do all of the tasks he needed on the internet , word processing , graphic design and gaming .",
+    "aspect": "gaming",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.616,
+    "correct": true
+  },
+  {
+    "text": "I like the Mini Mac it was easy to setup and install , but I am learning as I go and could use a tutorial to learn how to use some of the features I was use to on the PC especially the right mouse click menu .",
+    "aspect": "setup",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.5268,
+    "correct": true
+  },
+  {
+    "text": "I like the Mini Mac it was easy to setup and install , but I am learning as I go and could use a tutorial to learn how to use some of the features I was use to on the PC especially the right mouse click menu .",
+    "aspect": "install",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.5246,
+    "correct": true
+  },
+  {
+    "text": "I like the Mini Mac it was easy to setup and install , but I am learning as I go and could use a tutorial to learn how to use some of the features I was use to on the PC especially the right mouse click menu .",
+    "aspect": "tutorial",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.5241,
+    "correct": true
+  },
+  {
+    "text": "I like the Mini Mac it was easy to setup and install , but I am learning as I go and could use a tutorial to learn how to use some of the features I was use to on the PC especially the right mouse click menu .",
+    "aspect": "features",
+    "true": "neutral",
+    "pred": "positive",
+    "confidence": 0.5148,
+    "correct": false
+  },
+  {
+    "text": "I like the Mini Mac it was easy to setup and install , but I am learning as I go and could use a tutorial to learn how to use some of the features I was use to on the PC especially the right mouse click menu .",
+    "aspect": "right mouse click menu",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.5324,
+    "correct": true
+  },
+  {
+    "text": "Runs real quick .",
+    "aspect": "Runs",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9676,
+    "correct": true
+  },
+  {
+    "text": "Buy the separate RAM memory and you will have a rocket !",
+    "aspect": "RAM memory",
+    "true": "positive",
+    "pred": "neutral",
+    "confidence": 0.8821,
+    "correct": false
+  },
+  {
+    "text": "Since the machine 's slim profile is critical to me , that was a problem .",
+    "aspect": "profile",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.9248,
+    "correct": true
+  },
+  {
+    "text": "WiFi capability , disk drive and multiple USB ports to connect scale and printers was all that was required .",
+    "aspect": "disk drive",
+    "true": "positive",
+    "pred": "neutral",
+    "confidence": 0.8176,
+    "correct": false
+  },
+  {
+    "text": "WiFi capability , disk drive and multiple USB ports to connect scale and printers was all that was required .",
+    "aspect": "USB ports",
+    "true": "positive",
+    "pred": "neutral",
+    "confidence": 0.852,
+    "correct": false
+  },
+  {
+    "text": "WiFi capability , disk drive and multiple USB ports to connect scale and printers was all that was required .",
+    "aspect": "WiFi capability",
+    "true": "positive",
+    "pred": "neutral",
+    "confidence": 0.8026,
+    "correct": false
+  },
+  {
+    "text": "The SD card reader is slightly recessed and upside down -LRB- the nail slot on the card can not be accessed -RRB- , if this was a self ejecting slot this would not be an issue , but its not .",
+    "aspect": "SD card reader",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.6211,
+    "correct": true
+  },
+  {
+    "text": "The SD card reader is slightly recessed and upside down -LRB- the nail slot on the card can not be accessed -RRB- , if this was a self ejecting slot this would not be an issue , but its not .",
+    "aspect": "nail slot on the card",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.5451,
+    "correct": true
+  },
+  {
+    "text": "The SD card reader is slightly recessed and upside down -LRB- the nail slot on the card can not be accessed -RRB- , if this was a self ejecting slot this would not be an issue , but its not .",
+    "aspect": "slot",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.5561,
+    "correct": true
+  },
+  {
+    "text": "Soft touch , anodized aluminum with laser cut precision and no flaws .",
+    "aspect": "touch",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9627,
+    "correct": true
+  },
+  {
+    "text": "Soft touch , anodized aluminum with laser cut precision and no flaws .",
+    "aspect": "anodized aluminum",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9637,
+    "correct": true
+  },
+  {
+    "text": "Simple details , crafted aluminium and real glass make this laptop blow away the other plastic ridden , bulky sticker filled laptops .",
+    "aspect": "aluminium",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.8976,
+    "correct": true
+  },
+  {
+    "text": "Simple details , crafted aluminium and real glass make this laptop blow away the other plastic ridden , bulky sticker filled laptops .",
+    "aspect": "glass",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.8998,
+    "correct": true
+  },
+  {
+    "text": "First of all yes this is a mac and it has that nice brushed aluminum .",
+    "aspect": "aluminum",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9584,
+    "correct": true
+  },
+  {
+    "text": "After all was said and done , I essentially used that $ 450 savings to buy 16GB of RAM , TWO Seagate Momentus XT hybrid drives and an OWC upgrade kit to install the second hard drive .",
+    "aspect": "16GB of RAM",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.889,
+    "correct": true
+  },
+  {
+    "text": "After all was said and done , I essentially used that $ 450 savings to buy 16GB of RAM , TWO Seagate Momentus XT hybrid drives and an OWC upgrade kit to install the second hard drive .",
+    "aspect": "Seagate Momentus XT hybrid drives",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.8971,
+    "correct": true
+  },
+  {
+    "text": "After all was said and done , I essentially used that $ 450 savings to buy 16GB of RAM , TWO Seagate Momentus XT hybrid drives and an OWC upgrade kit to install the second hard drive .",
+    "aspect": "OWC upgrade kit",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.905,
+    "correct": true
+  },
+  {
+    "text": "After all was said and done , I essentially used that $ 450 savings to buy 16GB of RAM , TWO Seagate Momentus XT hybrid drives and an OWC upgrade kit to install the second hard drive .",
+    "aspect": "hard drive",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.9037,
+    "correct": true
+  },
+  {
+    "text": "The Dell Inspiron is fast and has a number pad on the keyboard , which I miss on my Apple laptops .",
+    "aspect": "number pad on the keyboard",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9312,
+    "correct": true
+  },
+  {
+    "text": "I was concerned that the downgrade to the regular hard drive would make it unacceptably slow but I need not have worried - this machine is the fastest I have ever owned ...",
+    "aspect": "regular hard drive",
+    "true": "positive",
+    "pred": "negative",
+    "confidence": 0.8388,
+    "correct": false
+  },
+  {
+    "text": "This one still has the CD slot .",
+    "aspect": "CD slot",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.6061,
+    "correct": true
+  },
+  {
+    "text": "No HDMI port .",
+    "aspect": "HDMI port",
+    "true": "neutral",
+    "pred": "negative",
+    "confidence": 0.8815,
+    "correct": false
+  },
+  {
+    "text": "I had to install Mountain Lion and it took a good two hours .",
+    "aspect": "install Mountain Lion",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.7935,
+    "correct": true
+  },
+  {
+    "text": "Customization on mac is impossible .",
+    "aspect": "Customization",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.9539,
+    "correct": true
+  },
+  {
+    "text": "I am replacing the HD with a Micron SSD soon .",
+    "aspect": "HD",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.8652,
+    "correct": true
+  },
+  {
+    "text": "I am replacing the HD with a Micron SSD soon .",
+    "aspect": "Micron SSD",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.8942,
+    "correct": true
+  },
+  {
+    "text": "Plus two finger clicking as a replacement for the right click button is surprisingly intuitive .",
+    "aspect": "two finger clicking",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.8481,
+    "correct": true
+  },
+  {
+    "text": "Plus two finger clicking as a replacement for the right click button is surprisingly intuitive .",
+    "aspect": "right click button",
+    "true": "neutral",
+    "pred": "positive",
+    "confidence": 0.8333,
+    "correct": false
+  },
+  {
+    "text": "The SuperDrive is quiet .",
+    "aspect": "SuperDrive",
+    "true": "positive",
+    "pred": "negative",
+    "confidence": 0.8657,
+    "correct": false
+  },
+  {
+    "text": "The power plug has to be connected to the power adaptor to charge the battery but wo n't stay connected .",
+    "aspect": "power plug",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.8857,
+    "correct": true
+  },
+  {
+    "text": "The power plug has to be connected to the power adaptor to charge the battery but wo n't stay connected .",
+    "aspect": "power adaptor",
+    "true": "neutral",
+    "pred": "negative",
+    "confidence": 0.8619,
+    "correct": false
+  },
+  {
+    "text": "The power plug has to be connected to the power adaptor to charge the battery but wo n't stay connected .",
+    "aspect": "battery",
+    "true": "neutral",
+    "pred": "negative",
+    "confidence": 0.8706,
+    "correct": false
+  },
+  {
+    "text": "The battery was completely dead , in fact it had grown about a quarter inch thick lump on the underside .",
+    "aspect": "battery",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.8802,
+    "correct": true
+  },
+  {
+    "text": "if yo like practicality this is the laptop for you .",
+    "aspect": "practicality",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.6712,
+    "correct": true
+  },
+  {
+    "text": "The OS is great .",
+    "aspect": "OS",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9723,
+    "correct": true
+  },
+  {
+    "text": "I tried several monitors and several HDMI cables and this was the case each time .",
+    "aspect": "monitors",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.9018,
+    "correct": true
+  },
+  {
+    "text": "I tried several monitors and several HDMI cables and this was the case each time .",
+    "aspect": "HDMI cables",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.9006,
+    "correct": true
+  },
+  {
+    "text": "CONS : Price is a bit ridiculous , kinda heavy .",
+    "aspect": "Price",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.9109,
+    "correct": true
+  },
+  {
+    "text": "The troubleshooting said it was the AC adaptor so we ordered a new one .",
+    "aspect": "AC adaptor",
+    "true": "neutral",
+    "pred": "negative",
+    "confidence": 0.5558,
+    "correct": false
+  },
+  {
+    "text": "Fan only comes on when you are playing a game .",
+    "aspect": "Fan",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.83,
+    "correct": true
+  },
+  {
+    "text": "Fan only comes on when you are playing a game .",
+    "aspect": "playing a game",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.8477,
+    "correct": true
+  },
+  {
+    "text": "Which it did not have , only 3 USB 2 ports .",
+    "aspect": "USB 2 ports",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.5961,
+    "correct": true
+  },
+  {
+    "text": "No startup disk was not included but that may be my fault .",
+    "aspect": "startup disk",
+    "true": "neutral",
+    "pred": "negative",
+    "confidence": 0.8179,
+    "correct": false
+  },
+  {
+    "text": "There is no \"tools\" menu .",
+    "aspect": "\"tools\" menu",
+    "true": "neutral",
+    "pred": "negative",
+    "confidence": 0.8666,
+    "correct": false
+  },
+  {
+    "text": "It is very fast and has everything that I need except for a word program .",
+    "aspect": "word program",
+    "true": "negative",
+    "pred": "positive",
+    "confidence": 0.8728,
+    "correct": false
+  },
+  {
+    "text": "Needs a CD/DVD drive and a bigger power switch .",
+    "aspect": "CD/DVD drive",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.8307,
+    "correct": true
+  },
+  {
+    "text": "Needs a CD/DVD drive and a bigger power switch .",
+    "aspect": "power switch",
+    "true": "negative",
+    "pred": "neutral",
+    "confidence": 0.7666,
+    "correct": false
+  },
+  {
+    "text": "My laptop with Windows 7 crashed and I did not want Windows 8 .",
+    "aspect": "Windows 7",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.8953,
+    "correct": true
+  },
+  {
+    "text": "My laptop with Windows 7 crashed and I did not want Windows 8 .",
+    "aspect": "Windows 8",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.8968,
+    "correct": true
+  },
+  {
+    "text": "Easy to install also small to leave anywhere at your bedroom also very easy to configure for ADSl cable or wifi .",
+    "aspect": "install",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9604,
+    "correct": true
+  },
+  {
+    "text": "Easy to install also small to leave anywhere at your bedroom also very easy to configure for ADSl cable or wifi .",
+    "aspect": "configure for ADSl cable or wifi",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9601,
+    "correct": true
+  },
+  {
+    "text": "Nice packing .",
+    "aspect": "packing",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9675,
+    "correct": true
+  },
+  {
+    "text": "I switched to this because I wanted something different , even though I miss windows .",
+    "aspect": "windows",
+    "true": "positive",
+    "pred": "neutral",
+    "confidence": 0.5014,
+    "correct": false
+  },
+  {
+    "text": "Apple no longer includes iDVD with the computer and furthermore , Apple does n't even offer it anymore !",
+    "aspect": "iDVD",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.9334,
+    "correct": true
+  },
+  {
+    "text": "I also wanted Windows 7 , which this one has .",
+    "aspect": "Windows 7",
+    "true": "positive",
+    "pred": "neutral",
+    "confidence": 0.8708,
+    "correct": false
+  },
+  {
+    "text": "At first , I feel a little bit uncomfortable in using the Mac system .",
+    "aspect": "Mac system",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.5489,
+    "correct": true
+  },
+  {
+    "text": "I am used to computers with windows so I am having a little difficulty finding my way around .",
+    "aspect": "windows",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.5474,
+    "correct": true
+  },
+  {
+    "text": "It just works out of the box and you have a lot of cool software included with the OS .",
+    "aspect": "works",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9424,
+    "correct": true
+  },
+  {
+    "text": "It just works out of the box and you have a lot of cool software included with the OS .",
+    "aspect": "software",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9522,
+    "correct": true
+  },
+  {
+    "text": "It just works out of the box and you have a lot of cool software included with the OS .",
+    "aspect": "OS",
+    "true": "neutral",
+    "pred": "positive",
+    "confidence": 0.9457,
+    "correct": false
+  },
+  {
+    "text": "its as advertised on here ... it works great and is not a waste of money !",
+    "aspect": "works",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9589,
+    "correct": true
+  },
+  {
+    "text": "Runs like a champ ...",
+    "aspect": "Runs",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.8188,
+    "correct": true
+  },
+  {
+    "text": "Premium price for the OS more than anything else .",
+    "aspect": "price",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9127,
+    "correct": true
+  },
+  {
+    "text": "Premium price for the OS more than anything else .",
+    "aspect": "OS",
+    "true": "neutral",
+    "pred": "positive",
+    "confidence": 0.9039,
+    "correct": false
+  },
+  {
+    "text": "I was a little concerned about the touch pad based on reviews , but I 've found it fine to work with .",
+    "aspect": "touch pad",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.5505,
+    "correct": true
+  },
+  {
+    "text": "The sound as mentioned earlier is n't the best , but it can be solved with headphones .",
+    "aspect": "headphones",
+    "true": "neutral",
+    "pred": "negative",
+    "confidence": 0.9053,
+    "correct": false
+  },
+  {
+    "text": "However , the experience was great since the OS does not become unstable and the application will simply shutdown and reopen .",
+    "aspect": "OS",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.7388,
+    "correct": true
+  },
+  {
+    "text": "However , the experience was great since the OS does not become unstable and the application will simply shutdown and reopen .",
+    "aspect": "application",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.6984,
+    "correct": true
+  },
+  {
+    "text": "If you ask me , for this price it should be included .",
+    "aspect": "price",
+    "true": "negative",
+    "pred": "neutral",
+    "confidence": 0.5389,
+    "correct": false
+  },
+  {
+    "text": "The battery is not as shown in the product photos .",
+    "aspect": "battery",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.9165,
+    "correct": true
+  },
+  {
+    "text": "Shipping was quick and product described was the product sent and so much more ...",
+    "aspect": "Shipping",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9558,
+    "correct": true
+  },
+  {
+    "text": "the retina display display make pictures i took years ago jaw dropping .",
+    "aspect": "retina display display",
+    "true": "positive",
+    "pred": "neutral",
+    "confidence": 0.381,
+    "correct": false
+  },
+  {
+    "text": "The Mac Mini is probably the simplest example of compact computing out there .",
+    "aspect": "compact computing",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.5502,
+    "correct": true
+  },
+  {
+    "text": "Instead , I 'll focus more on the actual performance and feature set of the hardware itself so you can make an educated decision on which Mac to buy .",
+    "aspect": "performance and feature set of the hardware",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.7317,
+    "correct": true
+  },
+  {
+    "text": "Other ports include FireWire 800 , Gigabit Ethernet , MagSafe port , Microphone jack .",
+    "aspect": "ports",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.9367,
+    "correct": true
+  },
+  {
+    "text": "Other ports include FireWire 800 , Gigabit Ethernet , MagSafe port , Microphone jack .",
+    "aspect": "FireWire 800",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.9333,
+    "correct": true
+  },
+  {
+    "text": "Other ports include FireWire 800 , Gigabit Ethernet , MagSafe port , Microphone jack .",
+    "aspect": "Gigabit Ethernet",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.9356,
+    "correct": true
+  },
+  {
+    "text": "Other ports include FireWire 800 , Gigabit Ethernet , MagSafe port , Microphone jack .",
+    "aspect": "MagSafe port",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.9355,
+    "correct": true
+  },
+  {
+    "text": "Other ports include FireWire 800 , Gigabit Ethernet , MagSafe port , Microphone jack .",
+    "aspect": "Microphone jack",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.9349,
+    "correct": true
+  },
+  {
+    "text": "Additionally , there is barely a ventilation system in the computer , and even the simple activity of watching videos let alone playing steam games causes the laptop to get very very hot , and in fact impossible to keep on lap .",
+    "aspect": "ventilation system",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.9453,
+    "correct": true
+  },
+  {
+    "text": "Additionally , there is barely a ventilation system in the computer , and even the simple activity of watching videos let alone playing steam games causes the laptop to get very very hot , and in fact impossible to keep on lap .",
+    "aspect": "watching videos",
+    "true": "neutral",
+    "pred": "negative",
+    "confidence": 0.9179,
+    "correct": false
+  },
+  {
+    "text": "Additionally , there is barely a ventilation system in the computer , and even the simple activity of watching videos let alone playing steam games causes the laptop to get very very hot , and in fact impossible to keep on lap .",
+    "aspect": "playing steam games",
+    "true": "neutral",
+    "pred": "negative",
+    "confidence": 0.9201,
+    "correct": false
+  },
+  {
+    "text": "Chatting with Acer support , I was advised the problem was corrupted operating system files .",
+    "aspect": "Acer support",
+    "true": "neutral",
+    "pred": "negative",
+    "confidence": 0.8004,
+    "correct": false
+  },
+  {
+    "text": "Chatting with Acer support , I was advised the problem was corrupted operating system files .",
+    "aspect": "operating system files",
+    "true": "neutral",
+    "pred": "negative",
+    "confidence": 0.8288,
+    "correct": false
+  },
+  {
+    "text": "It 's been a couple weeks since the purchase and I 'm struggle with finding the correct keys -LRB- but that was expected -RRB- .",
+    "aspect": "keys",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.47,
+    "correct": true
+  },
+  {
+    "text": "Many people complain about the new OS , and it 's urgent for Apple to fix it asap !",
+    "aspect": "OS",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.9064,
+    "correct": true
+  },
+  {
+    "text": "Now that I have upgraded to Lion I am much happier about MAC OS and have just bought an iMac for office .",
+    "aspect": "Lion",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.6553,
+    "correct": true
+  },
+  {
+    "text": "Now that I have upgraded to Lion I am much happier about MAC OS and have just bought an iMac for office .",
+    "aspect": "MAC OS",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.6542,
+    "correct": true
+  },
+  {
+    "text": "User upgradeable RAM and HDD .",
+    "aspect": "RAM",
+    "true": "positive",
+    "pred": "neutral",
+    "confidence": 0.6585,
+    "correct": false
+  },
+  {
+    "text": "User upgradeable RAM and HDD .",
+    "aspect": "HDD",
+    "true": "positive",
+    "pred": "neutral",
+    "confidence": 0.667,
+    "correct": false
+  },
+  {
+    "text": "But I wanted the Pro for the CD/DVD player .",
+    "aspect": "CD/DVD player",
+    "true": "positive",
+    "pred": "neutral",
+    "confidence": 0.5878,
+    "correct": false
+  },
+  {
+    "text": "I was a little worry at first because I do n't have a lot of experience with os.x and windows has always been second nature to me after many years of using windows .",
+    "aspect": "os.x",
+    "true": "neutral",
+    "pred": "positive",
+    "confidence": 0.3775,
+    "correct": false
+  },
+  {
+    "text": "I was a little worry at first because I do n't have a lot of experience with os.x and windows has always been second nature to me after many years of using windows .",
+    "aspect": "windows",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.3748,
+    "correct": true
+  },
+  {
+    "text": "I was a little worry at first because I do n't have a lot of experience with os.x and windows has always been second nature to me after many years of using windows .",
+    "aspect": "windows",
+    "true": "neutral",
+    "pred": "positive",
+    "confidence": 0.3748,
+    "correct": false
+  },
+  {
+    "text": "With the softwares supporting the use of other OS makes it much better .",
+    "aspect": "OS",
+    "true": "neutral",
+    "pred": "positive",
+    "confidence": 0.8731,
+    "correct": false
+  },
+  {
+    "text": "With the softwares supporting the use of other OS makes it much better .",
+    "aspect": "softwares",
+    "true": "neutral",
+    "pred": "positive",
+    "confidence": 0.8929,
+    "correct": false
+  },
+  {
+    "text": "I then upgraded to Mac OS X 10.8 \"Mountain Lion\" .",
+    "aspect": "Mac OS X 10.8 \"Mountain Lion\"",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.803,
+    "correct": true
+  },
+  {
+    "text": "I was considering buying the Air , but in reality , this one has a more powerful performance and seems much more convenient , even though it 's about .20 inch thicker and 2 lbs heavier .",
+    "aspect": "performance",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9041,
+    "correct": true
+  },
+  {
+    "text": "At home and the office it gets plugged into an external 24 '' LCD screen , so built in screen size is not terribly important .",
+    "aspect": "built in screen size",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.8555,
+    "correct": true
+  },
+  {
+    "text": "At home and the office it gets plugged into an external 24\" LCD screen , so built in screen size is not terribly important .",
+    "aspect": "external 24\" LCD screen",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.8987,
+    "correct": true
+  },
+  {
+    "text": "Just beware no DVD slot so when I went to install software I had on CD I could n't .",
+    "aspect": "install software",
+    "true": "negative",
+    "pred": "neutral",
+    "confidence": 0.5354,
+    "correct": false
+  },
+  {
+    "text": "Just beware no DVD slot so when I went to install software I had on CD I could n't .",
+    "aspect": "DVD slot",
+    "true": "neutral",
+    "pred": "negative",
+    "confidence": 0.681,
+    "correct": false
+  },
+  {
+    "text": "I bought it to be able to dedicate a small , portable laptop to my writing and was surprised to learn that I needed to buy a word processing program to do so .",
+    "aspect": "word processing program",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.8563,
+    "correct": true
+  },
+  {
+    "text": "This version of MacBook Pro runs on a third-generation CPU (\"Ivy Bridge\") , not the latest fourth-generation Haswell CPU the 2013 version has .",
+    "aspect": "third-generation CPU (\"Ivy Bridge\")",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.8782,
+    "correct": true
+  },
+  {
+    "text": "This version of MacBook Pro runs on a third-generation CPU -LRB- `` Ivy Bridge '' -RRB- , not the latest fourth-generation Haswell CPU the 2013 version has .",
+    "aspect": "fourth-generation Haswell CPU",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.8463,
+    "correct": true
+  },
+  {
+    "text": "No Cd Rom in the new version there 's no way I 'm spending that kind of money on something has less features than the older version .",
+    "aspect": "Cd Rom",
+    "true": "neutral",
+    "pred": "negative",
+    "confidence": 0.8464,
+    "correct": false
+  },
+  {
+    "text": "No Cd Rom in the new version there 's no way I 'm spending that kind of money on something has less features than the older version .",
+    "aspect": "features",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.8451,
+    "correct": true
+  },
+  {
+    "text": "the volume is really low to low for a laptopwas not expectin t volume to be so lowan i hate that about this computer",
+    "aspect": "volume",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.9447,
+    "correct": true
+  },
+  {
+    "text": "the volume is really low to low for a laptopwas not expectin t volume to be so lowan i hate that about this computer",
+    "aspect": "volume",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.9447,
+    "correct": true
+  },
+  {
+    "text": "and its not hard to accidentally bang it against something so i recommend getting a case to protect it .",
+    "aspect": "case",
+    "true": "neutral",
+    "pred": "positive",
+    "confidence": 0.5499,
+    "correct": false
+  },
+  {
+    "text": "I got this at an amazing price from Amazon and it arrived just in time .",
+    "aspect": "price",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9218,
+    "correct": true
+  },
+  {
+    "text": "Every time I log into the system after a few hours , there is this endlessly frustrating process that I have to go through .",
+    "aspect": "log into the system",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.9447,
+    "correct": true
+  },
+  {
+    "text": "Put a SSD and use a 21\" LED screen , this set up is silky smooth !",
+    "aspect": "21\" LED screen",
+    "true": "neutral",
+    "pred": "positive",
+    "confidence": 0.6037,
+    "correct": false
+  },
+  {
+    "text": "Put a SSD and use a 21 '' LED screen , this set up is silky smooth !",
+    "aspect": "SSD",
+    "true": "neutral",
+    "pred": "positive",
+    "confidence": 0.7458,
+    "correct": false
+  },
+  {
+    "text": "Put a SSD and use a 21 '' LED screen , this set up is silky smooth !",
+    "aspect": "set up",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9305,
+    "correct": true
+  },
+  {
+    "text": "The case is now slightly larger than the previous generation , but the lack of an external power supply justifies the small increase in size .",
+    "aspect": "case",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.871,
+    "correct": true
+  },
+  {
+    "text": "The case is now slightly larger than the previous generation , but the lack of an external power supply justifies the small increase in size .",
+    "aspect": "external power supply",
+    "true": "neutral",
+    "pred": "negative",
+    "confidence": 0.9055,
+    "correct": false
+  },
+  {
+    "text": "I had to buy a wireless mouse to go with it , as I am old school and hate the pad , but knew that before I bought it , now it works great , need to get adjusted to the key board , as I am used to a bigger one and pounding .",
+    "aspect": "wireless mouse",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.6128,
+    "correct": true
+  },
+  {
+    "text": "I had to buy a wireless mouse to go with it , as I am old school and hate the pad , but knew that before I bought it , now it works great , need to get adjusted to the key board , as I am used to a bigger one and pounding .",
+    "aspect": "pad",
+    "true": "negative",
+    "pred": "neutral",
+    "confidence": 0.4716,
+    "correct": false
+  },
+  {
+    "text": "I had to buy a wireless mouse to go with it , as I am old school and hate the pad , but knew that before I bought it , now it works great , need to get adjusted to the key board , as I am used to a bigger one and pounding .",
+    "aspect": "works",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.7409,
+    "correct": true
+  },
+  {
+    "text": "I had to buy a wireless mouse to go with it , as I am old school and hate the pad , but knew that before I bought it , now it works great , need to get adjusted to the key board , as I am used to a bigger one and pounding .",
+    "aspect": "key board",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.5834,
+    "correct": true
+  },
+  {
+    "text": "When considering a Mac , look at the total cost of ownership and not just the initial price tag .",
+    "aspect": "cost of ownership",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.4807,
+    "correct": true
+  },
+  {
+    "text": "When considering a Mac , look at the total cost of ownership and not just the initial price tag .",
+    "aspect": "price tag",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.4542,
+    "correct": true
+  },
+  {
+    "text": "Has all the other features I wanted including a VGA port , HDMI , ethernet and 3 USB ports .",
+    "aspect": "features",
+    "true": "positive",
+    "pred": "neutral",
+    "confidence": 0.8716,
+    "correct": false
+  },
+  {
+    "text": "Has all the other features I wanted including a VGA port , HDMI , ethernet and 3 USB ports .",
+    "aspect": "VGA port",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.8849,
+    "correct": true
+  },
+  {
+    "text": "Has all the other features I wanted including a VGA port , HDMI , ethernet and 3 USB ports .",
+    "aspect": "HDMI",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.8885,
+    "correct": true
+  },
+  {
+    "text": "Has all the other features I wanted including a VGA port , HDMI , ethernet and 3 USB ports .",
+    "aspect": "ethernet",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.8961,
+    "correct": true
+  },
+  {
+    "text": "Has all the other features I wanted including a VGA port , HDMI , ethernet and 3 USB ports .",
+    "aspect": "USB ports",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.8923,
+    "correct": true
+  },
+  {
+    "text": "The only thing I dislike about this laptop are the rubber pads found on the bottom of the computer for grip .",
+    "aspect": "rubber pads",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.8971,
+    "correct": true
+  },
+  {
+    "text": "It 's a decent computer for the price and hopefully it will last a long time .",
+    "aspect": "price",
+    "true": "neutral",
+    "pred": "positive",
+    "confidence": 0.9547,
+    "correct": false
+  },
+  {
+    "text": "The nicest part is the low heat output and ultra quiet operation .",
+    "aspect": "heat output",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.6133,
+    "correct": true
+  },
+  {
+    "text": "The nicest part is the low heat output and ultra quiet operation .",
+    "aspect": "operation",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9104,
+    "correct": true
+  },
+  {
+    "text": "I will upgrade the ram myself -LRB- because with this model you can you can do it -RRB- later on .",
+    "aspect": "upgrade the ram",
+    "true": "positive",
+    "pred": "neutral",
+    "confidence": 0.736,
+    "correct": false
+  },
+  {
+    "text": "The price is 200 dollars down .",
+    "aspect": "price",
+    "true": "positive",
+    "pred": "negative",
+    "confidence": 0.9256,
+    "correct": false
+  },
+  {
+    "text": "this Mac Mini does not have a built-in mic , and it would seem that its Mac OS 10.9 does not handle external microphones properly .",
+    "aspect": "built-in mic",
+    "true": "neutral",
+    "pred": "negative",
+    "confidence": 0.8677,
+    "correct": false
+  },
+  {
+    "text": "this Mac Mini does not have a built-in mic , and it would seem that its Mac OS 10.9 does not handle external microphones properly .",
+    "aspect": "Mac OS 10.9",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.8556,
+    "correct": true
+  },
+  {
+    "text": "this Mac Mini does not have a built-in mic , and it would seem that its Mac OS 10.9 does not handle external microphones properly .",
+    "aspect": "external microphones",
+    "true": "neutral",
+    "pred": "negative",
+    "confidence": 0.8558,
+    "correct": false
+  },
+  {
+    "text": "A lot of features and shortcuts on the MBP that I was never exposed to on a normal PC .",
+    "aspect": "features",
+    "true": "neutral",
+    "pred": "positive",
+    "confidence": 0.7726,
+    "correct": false
+  },
+  {
+    "text": "A lot of features and shortcuts on the MBP that I was never exposed to on a normal PC .",
+    "aspect": "shortcuts",
+    "true": "neutral",
+    "pred": "positive",
+    "confidence": 0.8613,
+    "correct": false
+  },
+  {
+    "text": "Was n't sure if I was going to like it much less love it so I went to a local best buy and played around with the IOS system on a Mac Pro and it was totally unique and different .",
+    "aspect": "IOS system",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.7782,
+    "correct": true
+  },
+  {
+    "text": "air has higher resolution but the fonts are small .",
+    "aspect": "resolution",
+    "true": "positive",
+    "pred": "negative",
+    "confidence": 0.6858,
+    "correct": false
+  },
+  {
+    "text": "air has higher resolution but the fonts are small .",
+    "aspect": "fonts",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.8826,
+    "correct": true
+  },
+  {
+    "text": "working with Mac is so much easier , so many cool features .",
+    "aspect": "working",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9638,
+    "correct": true
+  },
+  {
+    "text": "working with Mac is so much easier , so many cool features .",
+    "aspect": "features",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9659,
+    "correct": true
+  },
+  {
+    "text": "I like the brightness and adjustments .",
+    "aspect": "brightness",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.8848,
+    "correct": true
+  },
+  {
+    "text": "I like the brightness and adjustments .",
+    "aspect": "adjustments",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9021,
+    "correct": true
+  },
+  {
+    "text": "I only wish this mac had a CD/DVD player built in .",
+    "aspect": "CD/DVD player",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.8056,
+    "correct": true
+  },
+  {
+    "text": "The only thing I miss is that my old Alienware laptop had backlit keys .",
+    "aspect": "backlit keys",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.8626,
+    "correct": true
+  },
+  {
+    "text": "The only thing I miss are the \"Home/End\" type keys and other things that I grew accustomed to after so long .",
+    "aspect": "\"Home/End\" type keys",
+    "true": "neutral",
+    "pred": "negative",
+    "confidence": 0.8723,
+    "correct": false
+  },
+  {
+    "text": "So happy with this purchase , I just wish it came with Microsoft Word .",
+    "aspect": "Microsoft Word",
+    "true": "neutral",
+    "pred": "positive",
+    "confidence": 0.5043,
+    "correct": false
+  },
+  {
+    "text": "It has enough memory and speed to run my business with all the flexibility that comes with a laptop .",
+    "aspect": "memory",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9355,
+    "correct": true
+  },
+  {
+    "text": "It has enough memory and speed to run my business with all the flexibility that comes with a laptop .",
+    "aspect": "speed",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9478,
+    "correct": true
+  },
+  {
+    "text": "It has enough memory and speed to run my business with all the flexibility that comes with a laptop .",
+    "aspect": "flexibility",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9427,
+    "correct": true
+  },
+  {
+    "text": "The speed , the simplicity , the design . . it is lightyears ahead of any PC I have ever owned .",
+    "aspect": "speed",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9694,
+    "correct": true
+  },
+  {
+    "text": "The speed , the simplicity , the design . . it is lightyears ahead of any PC I have ever owned .",
+    "aspect": "simplicity",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.97,
+    "correct": true
+  },
+  {
+    "text": "The speed , the simplicity , the design . . it is lightyears ahead of any PC I have ever owned .",
+    "aspect": "design",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9688,
+    "correct": true
+  },
+  {
+    "text": "The battery life is excellent , the display is excellent , and downloading apps is a breeze .",
+    "aspect": "battery life",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9701,
+    "correct": true
+  },
+  {
+    "text": "The battery life is excellent , the display is excellent , and downloading apps is a breeze .",
+    "aspect": "display",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9702,
+    "correct": true
+  },
+  {
+    "text": "The battery life is excellent , the display is excellent , and downloading apps is a breeze .",
+    "aspect": "downloading apps",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9655,
+    "correct": true
+  },
+  {
+    "text": "The screen , the software and the smoothness of the operating system .",
+    "aspect": "screen",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9483,
+    "correct": true
+  },
+  {
+    "text": "The screen , the software and the smoothness of the operating system .",
+    "aspect": "software",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9419,
+    "correct": true
+  },
+  {
+    "text": "The screen , the software and the smoothness of the operating system .",
+    "aspect": "operating system",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.926,
+    "correct": true
+  },
+  {
+    "text": "i have dropped mine a couple times with only a slim plastic case covering it .",
+    "aspect": "slim plastic case",
+    "true": "neutral",
+    "pred": "negative",
+    "confidence": 0.6595,
+    "correct": false
+  },
+  {
+    "text": "I also made a recovery USB stick .",
+    "aspect": "recovery USB stick",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.8865,
+    "correct": true
+  },
+  {
+    "text": "But with this laptop , the bass is very weak and the sound comes out sounding tinny .",
+    "aspect": "bass",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.9579,
+    "correct": true
+  },
+  {
+    "text": "But with this laptop , the bass is very weak and the sound comes out sounding tinny .",
+    "aspect": "sound",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.9537,
+    "correct": true
+  },
+  {
+    "text": "The built quality is really good , I was so Happy and excited about this Product .",
+    "aspect": "built quality",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9583,
+    "correct": true
+  },
+  {
+    "text": "I am loving the fast performance also .",
+    "aspect": "performance",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9606,
+    "correct": true
+  },
+  {
+    "text": "Further , this Mac Mini has a sloppy Bluetooth interface -LRB- courtesy of the Mac OS -RRB- and the range is poor .",
+    "aspect": "Bluetooth interface",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.929,
+    "correct": true
+  },
+  {
+    "text": "Further , this Mac Mini has a sloppy Bluetooth interface -LRB- courtesy of the Mac OS -RRB- and the range is poor .",
+    "aspect": "Mac OS",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.925,
+    "correct": true
+  },
+  {
+    "text": "Further , this Mac Mini has a sloppy Bluetooth interface -LRB- courtesy of the Mac OS -RRB- and the range is poor .",
+    "aspect": "range",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.9392,
+    "correct": true
+  },
+  {
+    "text": "If you start on the far right side and scroll to your left the start menu will automatically come up .",
+    "aspect": "start menu",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.887,
+    "correct": true
+  },
+  {
+    "text": "My only gripe would be the need to add more RAM .",
+    "aspect": "RAM",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.9189,
+    "correct": true
+  },
+  {
+    "text": "Fine if you have a touch screen .",
+    "aspect": "touch screen",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.5237,
+    "correct": true
+  },
+  {
+    "text": "As far as user type - I dabble in everything from games -LRB- WoW -RRB- to Photoshop , but nothing professionally .",
+    "aspect": "games",
+    "true": "neutral",
+    "pred": "negative",
+    "confidence": 0.4301,
+    "correct": false
+  },
+  {
+    "text": "As far as user type - I dabble in everything from games -LRB- WoW -RRB- to Photoshop , but nothing professionally .",
+    "aspect": "Photoshop",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.4414,
+    "correct": true
+  },
+  {
+    "text": "I re-seated the \"WLAN\" card inside and re-installed the LAN device drivers .",
+    "aspect": "\"WLAN\" card",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.9391,
+    "correct": true
+  },
+  {
+    "text": "I re-seated the `` WLAN '' card inside and re-installed the LAN device drivers .",
+    "aspect": "LAN device drivers",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.9392,
+    "correct": true
+  },
+  {
+    "text": "This by far beats any computer out on the market today built well , battery life AMAZING .",
+    "aspect": "built",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9687,
+    "correct": true
+  },
+  {
+    "text": "This by far beats any computer out on the market today built well , battery life AMAZING .",
+    "aspect": "battery life",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9692,
+    "correct": true
+  },
+  {
+    "text": "The OS is easy , and offers all kinds of surprises .",
+    "aspect": "OS",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9702,
+    "correct": true
+  },
+  {
+    "text": "I had to get Apple Customer Support to correct the problem .",
+    "aspect": "Apple Customer Support",
+    "true": "neutral",
+    "pred": "negative",
+    "confidence": 0.8143,
+    "correct": false
+  },
+  {
+    "text": "A veryimportant feature is Firewire 800 which in my experience works better then USB3 -LRB- in PC enabled with USB3 -RRB- I was not originally sold on the MAC OS I felt it was inferior in many ways To Windows 7 .",
+    "aspect": "Firewire 800",
+    "true": "positive",
+    "pred": "negative",
+    "confidence": 0.5406,
+    "correct": false
+  },
+  {
+    "text": "A veryimportant feature is Firewire 800 which in my experience works better then USB3 -LRB- in PC enabled with USB3 -RRB- I was not originally sold on the MAC OS I felt it was inferior in many ways To Windows 7 .",
+    "aspect": "USB3",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.5726,
+    "correct": true
+  },
+  {
+    "text": "A veryimportant feature is Firewire 800 which in my experience works better then USB3 -LRB- in PC enabled with USB3 -RRB- I was not originally sold on the MAC OS I felt it was inferior in many ways To Windows 7 .",
+    "aspect": "USB3",
+    "true": "neutral",
+    "pred": "negative",
+    "confidence": 0.5726,
+    "correct": false
+  },
+  {
+    "text": "A veryimportant feature is Firewire 800 which in my experience works better then USB3 -LRB- in PC enabled with USB3 -RRB- I was not originally sold on the MAC OS I felt it was inferior in many ways To Windows 7 .",
+    "aspect": "MAC OS",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.6191,
+    "correct": true
+  },
+  {
+    "text": "A veryimportant feature is Firewire 800 which in my experience works better then USB3 -LRB- in PC enabled with USB3 -RRB- I was not originally sold on the MAC OS I felt it was inferior in many ways To Windows 7 .",
+    "aspect": "Windows 7",
+    "true": "positive",
+    "pred": "negative",
+    "confidence": 0.5906,
+    "correct": false
+  },
+  {
+    "text": "I like iTunes , the apparent security , the Mini form factor , all the nice graphics stuff .",
+    "aspect": "iTunes",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9642,
+    "correct": true
+  },
+  {
+    "text": "I like iTunes , the apparent security , the Mini form factor , all the nice graphics stuff .",
+    "aspect": "security",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9634,
+    "correct": true
+  },
+  {
+    "text": "I like iTunes , the apparent security , the Mini form factor , all the nice graphics stuff .",
+    "aspect": "Mini form factor",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9616,
+    "correct": true
+  },
+  {
+    "text": "I like iTunes , the apparent security , the Mini form factor , all the nice graphics stuff .",
+    "aspect": "graphics stuff",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9658,
+    "correct": true
+  },
+  {
+    "text": "The first time I used the card reader it took half an hour and a pair of tweezers to remove the card .",
+    "aspect": "card reader",
+    "true": "negative",
+    "pred": "neutral",
+    "confidence": 0.8321,
+    "correct": false
+  },
+  {
+    "text": "The first time I used the card reader it took half an hour and a pair of tweezers to remove the card .",
+    "aspect": "remove the card",
+    "true": "negative",
+    "pred": "neutral",
+    "confidence": 0.8426,
+    "correct": false
+  },
+  {
+    "text": "After replacing the spinning hard disk with an ssd drive , my mac is just flying .",
+    "aspect": "spinning hard disk",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.8689,
+    "correct": true
+  },
+  {
+    "text": "After replacing the spinning hard disk with an ssd drive , my mac is just flying .",
+    "aspect": "ssd drive",
+    "true": "positive",
+    "pred": "neutral",
+    "confidence": 0.8892,
+    "correct": false
+  },
+  {
+    "text": "I know some people complained about HDMI issues but they released a firmware patch to address that issue .",
+    "aspect": "HDMI",
+    "true": "neutral",
+    "pred": "negative",
+    "confidence": 0.7993,
+    "correct": false
+  },
+  {
+    "text": "I know some people complained about HDMI issues but they released a firmware patch to address that issue .",
+    "aspect": "firmware patch",
+    "true": "neutral",
+    "pred": "negative",
+    "confidence": 0.5668,
+    "correct": false
+  },
+  {
+    "text": "With the needs of a professional photographer I generally need to keep up with the best specs .",
+    "aspect": "specs",
+    "true": "neutral",
+    "pred": "positive",
+    "confidence": 0.5868,
+    "correct": false
+  },
+  {
+    "text": "packing and everything was perfect",
+    "aspect": "packing",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.965,
+    "correct": true
+  },
+  {
+    "text": "I called Toshiba where I gave them the serial number and they informed me that they were having issues with the mother boards .",
+    "aspect": "mother boards",
+    "true": "neutral",
+    "pred": "negative",
+    "confidence": 0.7524,
+    "correct": false
+  },
+  {
+    "text": "I seem to be having repeat problems as the Mother Board in this one is diagnosed as faulty , related to the graphics card .",
+    "aspect": "Mother Board",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.9003,
+    "correct": true
+  },
+  {
+    "text": "I seem to be having repeat problems as the Mother Board in this one is diagnosed as faulty , related to the graphics card .",
+    "aspect": "graphics card",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.8924,
+    "correct": true
+  },
+  {
+    "text": "It also comes with 4G of RAM but if you 're like me you want to max that out so I immediately put 8G of RAM in her and I 've never used a computer that performs better .",
+    "aspect": "4G of RAM",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.6007,
+    "correct": true
+  },
+  {
+    "text": "It also comes with 4G of RAM but if you 're like me you want to max that out so I immediately put 8G of RAM in her and I 've never used a computer that performs better .",
+    "aspect": "8G of RAM",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.6131,
+    "correct": true
+  },
+  {
+    "text": "It also comes with 4G of RAM but if you 're like me you want to max that out so I immediately put 8G of RAM in her and I 've never used a computer that performs better .",
+    "aspect": "performs",
+    "true": "positive",
+    "pred": "neutral",
+    "confidence": 0.4978,
+    "correct": false
+  },
+  {
+    "text": "This computer is also awesome for my sons virtual home schooling .",
+    "aspect": "virtual home schooling",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9535,
+    "correct": true
+  },
+  {
+    "text": "Cost is more as compared to other brands .",
+    "aspect": "Cost",
+    "true": "negative",
+    "pred": "negative",
+    "confidence": 0.5922,
+    "correct": true
+  },
+  {
+    "text": "also ... - excellent operating system - size and weight for optimal mobility - excellent durability of the battery - the functions provided by the trackpad is unmatched by any other brand -",
+    "aspect": "operating system",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9594,
+    "correct": true
+  },
+  {
+    "text": "also ... - excellent operating system - size and weight for optimal mobility - excellent durability of the battery - the functions provided by the trackpad is unmatched by any other brand -",
+    "aspect": "size",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.961,
+    "correct": true
+  },
+  {
+    "text": "also ... - excellent operating system - size and weight for optimal mobility - excellent durability of the battery - the functions provided by the trackpad is unmatched by any other brand -",
+    "aspect": "weight",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9617,
+    "correct": true
+  },
+  {
+    "text": "also ... - excellent operating system - size and weight for optimal mobility - excellent durability of the battery - the functions provided by the trackpad is unmatched by any other brand -",
+    "aspect": "mobility",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9614,
+    "correct": true
+  },
+  {
+    "text": "also ... - excellent operating system - size and weight for optimal mobility - excellent durability of the battery - the functions provided by the trackpad is unmatched by any other brand -",
+    "aspect": "durability of the battery",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9611,
+    "correct": true
+  },
+  {
+    "text": "also ... - excellent operating system - size and weight for optimal mobility - excellent durability of the battery - the functions provided by the trackpad is unmatched by any other brand -",
+    "aspect": "functions provided by the trackpad",
+    "true": "positive",
+    "pred": "positive",
+    "confidence": 0.9487,
+    "correct": true
+  },
+  {
+    "text": "This hardware seems to be better than the iMac in that it is n't $ 1400 and smaller .",
+    "aspect": "hardware",
+    "true": "positive",
+    "pred": "negative",
+    "confidence": 0.6411,
+    "correct": false
+  },
+  {
+    "text": "I 've had it for about 2 months now and found no issues with software or updates .",
+    "aspect": "software",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.4479,
+    "correct": true
+  },
+  {
+    "text": "I 've had it for about 2 months now and found no issues with software or updates .",
+    "aspect": "updates",
+    "true": "neutral",
+    "pred": "neutral",
+    "confidence": 0.4877,
+    "correct": true
+  },
+  {
+    "text": "the latest version does not have a disc drive .",
+    "aspect": "disc drive",
+    "true": "neutral",
+    "pred": "negative",
+    "confidence": 0.8659,
+    "correct": false
+  },
+  {
+    "text": "Screen - although some people might complain about low res which I think is ridiculous .",
+    "aspect": "Screen",
+    "true": "positive",
+    "pred": "negative",
+    "confidence": 0.6697,
+    "correct": false
+  },
+  {
+    "text": "Screen - although some people might complain about low res which I think is ridiculous .",
+    "aspect": "res",
+    "true": "positive",
+    "pred": "negative",
+    "confidence": 0.8428,
+    "correct": false
+  }
+]

@@ -1,0 +1,183 @@
+{
+  "total_predictions": 1120,
+  "total_correct": 944,
+  "total_errors": 176,
+  "error_rate": 0.15714285714285714,
+  "errors_by_true_label": {
+    "positive": 48,
+    "negative": 42,
+    "neutral": 86
+  },
+  "confusion_pairs": {
+    "neutral \u2192 positive": 61,
+    "positive \u2192 neutral": 33,
+    "neutral \u2192 negative": 25,
+    "negative \u2192 neutral": 25,
+    "negative \u2192 positive": 17,
+    "positive \u2192 negative": 15
+  },
+  "low_confidence_errors": 52,
+  "high_confidence_errors": 124,
+  "sample_errors": [
+    {
+      "text": "Certainly not the best sushi in New York , however , it is always fresh , and the place is very clean , sterile .",
+      "aspect": "place",
+      "true": "positive",
+      "pred": "negative",
+      "confidence": 0.5257,
+      "correct": false
+    },
+    {
+      "text": "The sangria 's - watered down .",
+      "aspect": "sangria",
+      "true": "negative",
+      "pred": "positive",
+      "confidence": 0.9815,
+      "correct": false
+    },
+    {
+      "text": "The portions of the food that came out were mediocre .",
+      "aspect": "portions of the food",
+      "true": "neutral",
+      "pred": "negative",
+      "confidence": 0.8146,
+      "correct": false
+    },
+    {
+      "text": "How pretentious and inappropriate for MJ Grill to claim that it provides power lunch and dinners !",
+      "aspect": "lunch",
+      "true": "negative",
+      "pred": "neutral",
+      "confidence": 0.5336,
+      "correct": false
+    },
+    {
+      "text": "The staff should be a bit more friendly .",
+      "aspect": "staff",
+      "true": "negative",
+      "pred": "positive",
+      "confidence": 0.7779,
+      "correct": false
+    },
+    {
+      "text": "Entrees include classics like lasagna , fettuccine Alfredo and chicken parmigiana .",
+      "aspect": "Entrees",
+      "true": "neutral",
+      "pred": "positive",
+      "confidence": 0.9835,
+      "correct": false
+    },
+    {
+      "text": "Entrees include classics like lasagna , fettuccine Alfredo and chicken parmigiana .",
+      "aspect": "lasagna",
+      "true": "neutral",
+      "pred": "positive",
+      "confidence": 0.9781,
+      "correct": false
+    },
+    {
+      "text": "Entrees include classics like lasagna , fettuccine Alfredo and chicken parmigiana .",
+      "aspect": "fettuccine Alfredo",
+      "true": "neutral",
+      "pred": "positive",
+      "confidence": 0.9771,
+      "correct": false
+    },
+    {
+      "text": "Entrees include classics like lasagna , fettuccine Alfredo and chicken parmigiana .",
+      "aspect": "chicken parmigiana",
+      "true": "neutral",
+      "pred": "positive",
+      "confidence": 0.9763,
+      "correct": false
+    },
+    {
+      "text": "The steak melted in my mouth .",
+      "aspect": "steak",
+      "true": "positive",
+      "pred": "negative",
+      "confidence": 0.7401,
+      "correct": false
+    },
+    {
+      "text": "Yes , they 're a bit more expensive then typical , but then again , so is their food .",
+      "aspect": "food",
+      "true": "positive",
+      "pred": "neutral",
+      "confidence": 0.7342,
+      "correct": false
+    },
+    {
+      "text": "Anywhere else , the prices would be 3x as high !",
+      "aspect": "prices",
+      "true": "positive",
+      "pred": "negative",
+      "confidence": 0.8773,
+      "correct": false
+    },
+    {
+      "text": "I know real Indian food and this was n't it .",
+      "aspect": "Indian food",
+      "true": "negative",
+      "pred": "neutral",
+      "confidence": 0.6985,
+      "correct": false
+    },
+    {
+      "text": "Desserts include flan and sopaipillas .",
+      "aspect": "Desserts",
+      "true": "neutral",
+      "pred": "positive",
+      "confidence": 0.8952,
+      "correct": false
+    },
+    {
+      "text": "Desserts include flan and sopaipillas .",
+      "aspect": "flan",
+      "true": "neutral",
+      "pred": "positive",
+      "confidence": 0.9093,
+      "correct": false
+    },
+    {
+      "text": "Desserts include flan and sopaipillas .",
+      "aspect": "sopaipillas",
+      "true": "neutral",
+      "pred": "positive",
+      "confidence": 0.9077,
+      "correct": false
+    },
+    {
+      "text": "The decor is designed in a contemporary Japanese style restaurant .",
+      "aspect": "decor",
+      "true": "neutral",
+      "pred": "positive",
+      "confidence": 0.9037,
+      "correct": false
+    },
+    {
+      "text": "A beautiful atmosphere , perfect for drinks and/or appetizers .",
+      "aspect": "drinks",
+      "true": "neutral",
+      "pred": "positive",
+      "confidence": 0.989,
+      "correct": false
+    },
+    {
+      "text": "A beautiful atmosphere , perfect for drinks and/or appetizers .",
+      "aspect": "appetizers",
+      "true": "neutral",
+      "pred": "positive",
+      "confidence": 0.9884,
+      "correct": false
+    },
+    {
+      "text": "Frankly , the chinese food here is something I can make better at home .",
+      "aspect": "chinese food",
+      "true": "negative",
+      "pred": "positive",
+      "confidence": 0.9353,
+      "correct": false
+    }
+  ]
+}

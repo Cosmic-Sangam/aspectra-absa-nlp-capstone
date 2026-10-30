@@ -1,0 +1,38 @@
+{
+  "model": "distilbert",
+  "domain": "restaurant",
+  "metrics": {
+    "accuracy": 0.8428571428571429,
+    "macro_f1": 0.769782602622441,
+    "weighted_f1": 0.8388599578976429,
+    "per_class_precision": [
+      0.7938144329896907,
+      0.6547619047619048,
+      0.8970976253298153
+    ],
+    "per_class_recall": [
+      0.7857142857142857,
+      0.5612244897959183,
+      0.9340659340659341
+    ]
+  },
+  "classification_report": "              precision    recall  f1-score   support\n\n           0       0.79      0.79      0.79       196\n           1       0.65      0.56      0.60       196\n           2       0.90      0.93      0.92       728\n\n    accuracy                           0.84      1120\n   macro avg       0.78      0.76      0.77      1120\nweighted avg       0.84      0.84      0.84      1120\n",
+  "confusion_matrix": [
+    [
+      154,
+      25,
+      17
+    ],
+    [
+      25,
+      110,
+      61
+    ],
+    [
+      15,
+      33,
+      680
+    ]
+  ],
+  "num_samples": 1120
+}

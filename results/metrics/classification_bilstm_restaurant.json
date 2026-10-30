@@ -1,0 +1,38 @@
+{
+  "model": "bilstm",
+  "domain": "restaurant",
+  "metrics": {
+    "accuracy": 0.6848214285714286,
+    "macro_f1": 0.4771082979401184,
+    "weighted_f1": 0.6343431833761234,
+    "per_class_precision": [
+      0.46923076923076923,
+      0.6666666666666666,
+      0.7153439153439154
+    ],
+    "per_class_recall": [
+      0.3112244897959184,
+      0.15306122448979592,
+      0.9285714285714286
+    ]
+  },
+  "classification_report": "              precision    recall  f1-score   support\n\n           0       0.47      0.31      0.37       196\n           1       0.67      0.15      0.25       196\n           2       0.72      0.93      0.81       728\n\n    accuracy                           0.68      1120\n   macro avg       0.62      0.46      0.48      1120\nweighted avg       0.66      0.68      0.63      1120\n",
+  "confusion_matrix": [
+    [
+      61,
+      2,
+      133
+    ],
+    [
+      30,
+      30,
+      136
+    ],
+    [
+      39,
+      13,
+      676
+    ]
+  ],
+  "num_samples": 1120
+}

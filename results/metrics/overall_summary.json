@@ -1,0 +1,30 @@
+{
+  "restaurant": {
+    "bilstm": {
+      "extraction_exact_f1": 0.776239392585976,
+      "extraction_token_f1": 0.7683397683397684,
+      "sentiment_accuracy": 0.6848214285714286,
+      "sentiment_macro_f1": 0.4771082979401184
+    },
+    "distilbert": {
+      "extraction_exact_f1": 0.8607254814151365,
+      "extraction_token_f1": 0.8554178582777248,
+      "sentiment_accuracy": 0.8428571428571429,
+      "sentiment_macro_f1": 0.769782602622441
+    }
+  },
+  "laptop": {
+    "bilstm": {
+      "extraction_exact_f1": 0.6699751861042185,
+      "extraction_token_f1": 0.7079741379310345,
+      "sentiment_accuracy": 0.6065830721003135,
+      "sentiment_macro_f1": 0.4967634910561982
+    },
+    "distilbert": {
+      "extraction_exact_f1": 0.8129439621152328,
+      "extraction_token_f1": 0.8295397066262014,
+      "sentiment_accuracy": 0.7570532915360502,
+      "sentiment_macro_f1": 0.7156012845480815
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "model": "distilbert",
+  "domain": "laptop",
+  "metrics": {
+    "accuracy": 0.7570532915360502,
+    "macro_f1": 0.7156012845480815,
+    "weighted_f1": 0.754950812122552,
+    "per_class_precision": [
+      0.5977653631284916,
+      0.6875,
+      0.8700906344410876
+    ],
+    "per_class_recall": [
+      0.8359375,
+      0.5207100591715976,
+      0.844574780058651
+    ]
+  },
+  "classification_report": "              precision    recall  f1-score   support\n\n           0       0.60      0.84      0.70       128\n           1       0.69      0.52      0.59       169\n           2       0.87      0.84      0.86       341\n\n    accuracy                           0.76       638\n   macro avg       0.72      0.73      0.72       638\nweighted avg       0.77      0.76      0.75       638\n",
+  "confusion_matrix": [
+    [
+      107,
+      13,
+      8
+    ],
+    [
+      46,
+      88,
+      35
+    ],
+    [
+      26,
+      27,
+      288
+    ]
+  ],
+  "num_samples": 638
+}

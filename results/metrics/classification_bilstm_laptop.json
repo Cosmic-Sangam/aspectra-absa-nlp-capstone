@@ -1,0 +1,38 @@
+{
+  "model": "bilstm",
+  "domain": "laptop",
+  "metrics": {
+    "accuracy": 0.6065830721003135,
+    "macro_f1": 0.4967634910561982,
+    "weighted_f1": 0.5712614812471797,
+    "per_class_precision": [
+      0.41216216216216217,
+      0.55,
+      0.6813953488372093
+    ],
+    "per_class_recall": [
+      0.4765625,
+      0.1952662721893491,
+      0.8592375366568915
+    ]
+  },
+  "classification_report": "              precision    recall  f1-score   support\n\n           0       0.41      0.48      0.44       128\n           1       0.55      0.20      0.29       169\n           2       0.68      0.86      0.76       341\n\n    accuracy                           0.61       638\n   macro avg       0.55      0.51      0.50       638\nweighted avg       0.59      0.61      0.57       638\n",
+  "confusion_matrix": [
+    [
+      61,
+      12,
+      55
+    ],
+    [
+      54,
+      33,
+      82
+    ],
+    [
+      33,
+      15,
+      293
+    ]
+  ],
+  "num_samples": 638
+}

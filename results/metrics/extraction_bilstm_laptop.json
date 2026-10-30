@@ -1,0 +1,15 @@
+{
+  "model": "bilstm",
+  "domain": "laptop",
+  "token_level": {
+    "precision": 0.801219512195122,
+    "recall": 0.6341698841698842,
+    "f1": 0.7079741379310345
+  },
+  "exact_match": {
+    "precision": 0.7043478260869566,
+    "recall": 0.638801261829653,
+    "f1": 0.6699751861042185
+  },
+  "num_samples": 418
+}

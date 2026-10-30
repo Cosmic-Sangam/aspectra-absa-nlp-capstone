@@ -1,0 +1,55 @@
+# ==========================================
+# Aspectra ABSA — Git Ignore Rules
+# ==========================================
+
+# 1. Python Environment & Cache
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# 2. Node.js & Frontend Dependencies
+node_modules/
+frontend/node_modules/
+.npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# (Note: frontend/dist is included in git so the compiled UI works out-of-the-box)
+
+# 3. Large Model Checkpoints (> 100MB exceeds GitHub push limit)
+*.pt
+*.bin
+*.safetensors
+models/aspect_extraction/distilbert/*.pt
+models/sentiment_classification/distilbert/*.pt
+models/aspect_extraction/bilstm/*.pt
+models/sentiment_classification/bilstm/*.pt
+
+# 4. Logs, OS & Temporary Files
+logs/*.log
+*.log
+*.tmp
+*.bak
+.env
+.env.local
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 5. IDE / Editor Folders
+.vscode/
+.idea/
+*.swp
+*.swo

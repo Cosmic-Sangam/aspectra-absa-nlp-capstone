@@ -1,0 +1,10 @@
+{
+  "distilbert_model": "distilbert-base-uncased",
+  "max_seq_len": 128,
+  "bilstm_hidden": 256,
+  "bilstm_embed": 300,
+  "bilstm_dropout": 0.5,
+  "default_batch_size": 16,
+  "default_epochs": 3,
+  "seed": 42
+}

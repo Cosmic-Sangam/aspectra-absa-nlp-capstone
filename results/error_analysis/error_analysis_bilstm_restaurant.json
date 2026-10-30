@@ -1,0 +1,183 @@
+{
+  "total_predictions": 1120,
+  "total_correct": 767,
+  "total_errors": 353,
+  "error_rate": 0.3151785714285714,
+  "errors_by_true_label": {
+    "positive": 52,
+    "neutral": 166,
+    "negative": 135
+  },
+  "confusion_pairs": {
+    "neutral \u2192 positive": 136,
+    "negative \u2192 positive": 133,
+    "positive \u2192 negative": 39,
+    "neutral \u2192 negative": 30,
+    "positive \u2192 neutral": 13,
+    "negative \u2192 neutral": 2
+  },
+  "low_confidence_errors": 146,
+  "high_confidence_errors": 207,
+  "sample_errors": [
+    {
+      "text": "I have to say they have one of the fastest delivery times in the city .",
+      "aspect": "delivery times",
+      "true": "positive",
+      "pred": "negative",
+      "confidence": 0.4647,
+      "correct": false
+    },
+    {
+      "text": "Did I mention that the coffee is OUTSTANDING ?",
+      "aspect": "coffee",
+      "true": "positive",
+      "pred": "negative",
+      "confidence": 0.5236,
+      "correct": false
+    },
+    {
+      "text": "Try the rose roll -LRB- not on menu -RRB- .",
+      "aspect": "menu",
+      "true": "neutral",
+      "pred": "positive",
+      "confidence": 0.5757,
+      "correct": false
+    },
+    {
+      "text": "In fact , this was not a Nicoise salad and was barely eatable .",
+      "aspect": "Nicoise salad",
+      "true": "negative",
+      "pred": "positive",
+      "confidence": 0.7398,
+      "correct": false
+    },
+    {
+      "text": "While there 's a decent menu , it should n't take ten minutes to get your drinks and 45 for a dessert pizza .",
+      "aspect": "dessert pizza",
+      "true": "neutral",
+      "pred": "positive",
+      "confidence": 0.5983,
+      "correct": false
+    },
+    {
+      "text": "The sangria 's - watered down .",
+      "aspect": "sangria",
+      "true": "negative",
+      "pred": "positive",
+      "confidence": 0.8394,
+      "correct": false
+    },
+    {
+      "text": "menu - uneventful , small .",
+      "aspect": "menu",
+      "true": "negative",
+      "pred": "positive",
+      "confidence": 0.3873,
+      "correct": false
+    },
+    {
+      "text": "Great food but the service was dreadful !",
+      "aspect": "service",
+      "true": "negative",
+      "pred": "positive",
+      "confidence": 0.9164,
+      "correct": false
+    },
+    {
+      "text": "the two waitress's looked like they had been sucking on lemons .",
+      "aspect": "waitress's",
+      "true": "negative",
+      "pred": "positive",
+      "confidence": 0.5169,
+      "correct": false
+    },
+    {
+      "text": "It was pleasantly uncrowded , the service was delightful , the garden adorable , the food -LRB- from appetizers to entrees -RRB- was delectable .",
+      "aspect": "appetizers",
+      "true": "positive",
+      "pred": "neutral",
+      "confidence": 0.5187,
+      "correct": false
+    },
+    {
+      "text": "How pretentious and inappropriate for MJ Grill to claim that it provides power lunch and dinners !",
+      "aspect": "lunch",
+      "true": "negative",
+      "pred": "positive",
+      "confidence": 0.6861,
+      "correct": false
+    },
+    {
+      "text": "How pretentious and inappropriate for MJ Grill to claim that it provides power lunch and dinners !",
+      "aspect": "dinners",
+      "true": "negative",
+      "pred": "positive",
+      "confidence": 0.9008,
+      "correct": false
+    },
+    {
+      "text": "Two wasted steaks -- what a crime !",
+      "aspect": "steaks",
+      "true": "negative",
+      "pred": "positive",
+      "confidence": 0.8745,
+      "correct": false
+    },
+    {
+      "text": "The staff should be a bit more friendly .",
+      "aspect": "staff",
+      "true": "negative",
+      "pred": "positive",
+      "confidence": 0.952,
+      "correct": false
+    },
+    {
+      "text": "Entrees include classics like lasagna , fettuccine Alfredo and chicken parmigiana .",
+      "aspect": "Entrees",
+      "true": "neutral",
+      "pred": "positive",
+      "confidence": 0.4407,
+      "correct": false
+    },
+    {
+      "text": "Entrees include classics like lasagna , fettuccine Alfredo and chicken parmigiana .",
+      "aspect": "lasagna",
+      "true": "neutral",
+      "pred": "positive",
+      "confidence": 0.5788,
+      "correct": false
+    },
+    {
+      "text": "Entrees include classics like lasagna , fettuccine Alfredo and chicken parmigiana .",
+      "aspect": "fettuccine Alfredo",
+      "true": "neutral",
+      "pred": "positive",
+      "confidence": 0.4543,
+      "correct": false
+    },
+    {
+      "text": "Entrees include classics like lasagna , fettuccine Alfredo and chicken parmigiana .",
+      "aspect": "chicken parmigiana",
+      "true": "neutral",
+      "pred": "positive",
+      "confidence": 0.4594,
+      "correct": false
+    },
+    {
+      "text": "Meal was very expensive for what you get .",
+      "aspect": "Meal",
+      "true": "negative",
+      "pred": "positive",
+      "confidence": 0.6096,
+      "correct": false
+    },
+    {
+      "text": "This made it obvious that the food was n't cooked fresh ; it was obviously made before hand and then reheated .",
+      "aspect": "food",
+      "true": "negative",
+      "pred": "positive",
+      "confidence": 0.492,
+      "correct": false
+    }
+  ]
+}

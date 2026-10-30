@@ -1,0 +1,183 @@
+{
+  "total_predictions": 638,
+  "total_correct": 387,
+  "total_errors": 251,
+  "error_rate": 0.3934169278996865,
+  "errors_by_true_label": {
+    "positive": 48,
+    "negative": 67,
+    "neutral": 136
+  },
+  "confusion_pairs": {
+    "neutral \u2192 positive": 82,
+    "negative \u2192 positive": 55,
+    "neutral \u2192 negative": 54,
+    "positive \u2192 negative": 33,
+    "positive \u2192 neutral": 15,
+    "negative \u2192 neutral": 12
+  },
+  "low_confidence_errors": 121,
+  "high_confidence_errors": 130,
+  "sample_errors": [
+    {
+      "text": "Boot time is super fast , around anywhere from 35 seconds to 1 minute .",
+      "aspect": "Boot time",
+      "true": "positive",
+      "pred": "negative",
+      "confidence": 0.456,
+      "correct": false
+    },
+    {
+      "text": "Did not enjoy the new Windows 8 and touchscreen functions .",
+      "aspect": "Windows 8",
+      "true": "negative",
+      "pred": "neutral",
+      "confidence": 0.4744,
+      "correct": false
+    },
+    {
+      "text": "Did not enjoy the new Windows 8 and touchscreen functions .",
+      "aspect": "touchscreen functions",
+      "true": "negative",
+      "pred": "positive",
+      "confidence": 0.698,
+      "correct": false
+    },
+    {
+      "text": "Other than not being a fan of click pads -LRB- industry standard these days -RRB- and the lousy internal speakers , it 's hard for me to find things about this notebook I do n't like , especially considering the $ 350 price tag .",
+      "aspect": "price tag",
+      "true": "positive",
+      "pred": "negative",
+      "confidence": 0.6008,
+      "correct": false
+    },
+    {
+      "text": "No installation disk (DVD) is included .",
+      "aspect": "installation disk (DVD)",
+      "true": "neutral",
+      "pred": "negative",
+      "confidence": 0.4078,
+      "correct": false
+    },
+    {
+      "text": "Made interneting -LRB- part of my business -RRB- very difficult to maintain .",
+      "aspect": "interneting",
+      "true": "negative",
+      "pred": "positive",
+      "confidence": 0.6825,
+      "correct": false
+    },
+    {
+      "text": "Strong build though which really adds to its durability .",
+      "aspect": "durability",
+      "true": "positive",
+      "pred": "negative",
+      "confidence": 0.5612,
+      "correct": false
+    },
+    {
+      "text": "Strong build though which really adds to its durability .",
+      "aspect": "build",
+      "true": "positive",
+      "pred": "negative",
+      "confidence": 0.5786,
+      "correct": false
+    },
+    {
+      "text": "And I may be the only one but I am really liking Windows 8 .",
+      "aspect": "Windows 8",
+      "true": "positive",
+      "pred": "neutral",
+      "confidence": 0.4842,
+      "correct": false
+    },
+    {
+      "text": "It 's not inexpensive but the Hardware performance is impressive for a computer this small .",
+      "aspect": "Hardware performance",
+      "true": "positive",
+      "pred": "negative",
+      "confidence": 0.6305,
+      "correct": false
+    },
+    {
+      "text": "Keyboard responds well to presses .",
+      "aspect": "Keyboard",
+      "true": "positive",
+      "pred": "negative",
+      "confidence": 0.6167,
+      "correct": false
+    },
+    {
+      "text": "Lastly , Windows 8 is annoying .",
+      "aspect": "Windows 8",
+      "true": "negative",
+      "pred": "neutral",
+      "confidence": 0.4299,
+      "correct": false
+    },
+    {
+      "text": "Amazing Performance for anything I throw at it .",
+      "aspect": "Performance",
+      "true": "positive",
+      "pred": "negative",
+      "confidence": 0.3462,
+      "correct": false
+    },
+    {
+      "text": "I was extremely happy with the OS itself .",
+      "aspect": "OS",
+      "true": "positive",
+      "pred": "negative",
+      "confidence": 0.5088,
+      "correct": false
+    },
+    {
+      "text": "The new MBP offers great portability and gives us confidence that we are not going to need to purchase a new laptop in 18 months .",
+      "aspect": "portability",
+      "true": "positive",
+      "pred": "negative",
+      "confidence": 0.4356,
+      "correct": false
+    },
+    {
+      "text": "MS Office 2011 for Mac is wonderful , well worth it .",
+      "aspect": "MS Office 2011 for Mac",
+      "true": "positive",
+      "pred": "negative",
+      "confidence": 0.5915,
+      "correct": false
+    },
+    {
+      "text": "But the performance of Mac Mini is a huge disappointment .",
+      "aspect": "performance",
+      "true": "negative",
+      "pred": "positive",
+      "confidence": 0.4631,
+      "correct": false
+    },
+    {
+      "text": "They do n't just look good ; they deliver excellent performance .",
+      "aspect": "performance",
+      "true": "positive",
+      "pred": "negative",
+      "confidence": 0.5901,
+      "correct": false
+    },
+    {
+      "text": "The Mountain Lion OS is not hard to figure out if you are familiar with Microsoft Windows .",
+      "aspect": "Mountain Lion OS",
+      "true": "positive",
+      "pred": "neutral",
+      "confidence": 0.3795,
+      "correct": false
+    },
+    {
+      "text": "However , I can refute that OSX is `` FAST '' .",
+      "aspect": "OSX",
+      "true": "negative",
+      "pred": "positive",
+      "confidence": 0.7772,
+      "correct": false
+    }
+  ]
+}

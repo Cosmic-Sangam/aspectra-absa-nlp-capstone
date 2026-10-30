@@ -1,0 +1,15 @@
+{
+  "model": "distilbert",
+  "domain": "restaurant",
+  "token_level": {
+    "precision": 0.878016960208741,
+    "recall": 0.8339529120198265,
+    "f1": 0.8554178582777248
+  },
+  "exact_match": {
+    "precision": 0.8572702943800179,
+    "recall": 0.8642086330935251,
+    "f1": 0.8607254814151365
+  },
+  "num_samples": 610
+}
