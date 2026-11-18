@@ -428,4 +428,4 @@ with tab_info:
     """)
 
 st.markdown("---")
-st.markdown("<div style='text-align: center; color: #94a3b8; font-size: 0.8rem;'>Aspectra ABSA Studio • University Semester Project • Built with PyTorch, Transformers & Streamlit</div>", unsafe_allow_html=True)
+st.markdown("<div style='text-align: center; color: #94a3b8; font-size: 0.8rem;'>Aspectra ABSA Studio • Developed by Utkarsh Yadav • Production-Grade NLP System</div>", unsafe_allow_html=True)

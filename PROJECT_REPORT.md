@@ -1,13 +1,15 @@
-# ACADEMIC PROJECT REPORT
+# TECHNICAL RESEARCH & IMPLEMENTATION REPORT
 
 ## ASPECTRA: DECOUPLED TWO-STAGE ASPECT-BASED SENTIMENT ANALYSIS WITH ATTENTION AND TOKEN PERTURBATION EXPLAINABILITY
 
 ---
 
 ### METADATA
-- **Course**: Natural Language Processing (Semester 5)
+- **Author**: Utkarsh Yadav
+- **System Architecture**: Aspectra ABSA Studio
 - **Domain**: Deep Learning, Transformers, Opinion Mining, Information Extraction
-- **Dataset**: SemEval-2014 Task 4 (Subtask 1 & 2)
+- **Live Deployment**: https://aspectra-absa-nlp-capstone-3teqkstws26wnur9ubmsr7.streamlit.app/
+- **Benchmark Corpus**: SemEval-2014 Task 4 (Subtask 1 & 2)
 - **Architectures**: DistilBERT (`distilbert-base-uncased`), Bidirectional LSTM (BiLSTM)
 - **Evaluation Benchmark**: Exact Match Span F1, Token F1, Sentiment Accuracy, Macro-F1
 
@@ -252,9 +254,12 @@ Aspectra is architected for deployment flexibility across production environment
 
 ---
 
-## 11. CONCLUSION
+## 11. CONCLUSION & ATTRIBUTIONS
 
-In this project, we designed, implemented, and audited **Aspectra**, a production-oriented ABSA framework. By evaluating DistilBERT and BiLSTM on SemEval-2014, we empirically confirmed the significant superiority of pre-trained Transformers for fine-grained opinion mining (**86.07% vs. 77.62% F1**). The incorporation of Leave-One-Out explainability, dynamic confidence filtering, and dual web deployment modes elevates Aspectra from an academic exercise into a robust, interpretable decision-support platform.
+In this research project, we designed, implemented, and benchmarked **Aspectra**, a production-oriented ABSA framework developed by **Utkarsh Yadav**. By evaluating DistilBERT and BiLSTM on SemEval-2014, we empirically confirmed the significant superiority of pre-trained Transformers for fine-grained opinion mining (**86.07% vs. 77.62% F1**). The incorporation of Leave-One-Out explainability, dynamic confidence filtering, and dual web deployment modes elevates Aspectra into a robust, interpretable decision-support platform.
+
+- **Lead Engineer & Author**: Utkarsh Yadav
+- **Live System URL**: https://aspectra-absa-nlp-capstone-3teqkstws26wnur9ubmsr7.streamlit.app/
 
 ---
-*End of Academic Report.*
+*End of Technical Report.*

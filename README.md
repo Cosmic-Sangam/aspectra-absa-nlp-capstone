@@ -2,14 +2,18 @@
 
 # ⚡ ASPECTRA — Fine-Grained Aspect-Based Sentiment Analysis Studio
 
+[![Live Demo](https://img.shields.io/badge/Streamlit%20Cloud-Live%20Demo-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://aspectra-absa-nlp-capstone-3teqkstws26wnur9ubmsr7.streamlit.app/)
+
+[![Author](https://img.shields.io/badge/Author-Utkarsh%20Yadav-blue?style=flat-square)](https://github.com/)
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg?logo=python&logoColor=white)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-EE4C2C.svg?logo=pytorch&logoColor=white)](https://pytorch.org/)
 [![Transformers](https://img.shields.io/badge/HuggingFace-Transformers-yellow.svg?logo=huggingface&logoColor=white)](https://huggingface.co/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.100%2B-009688.svg?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
-[![Streamlit](https://img.shields.io/badge/Streamlit-1.30%2B-FF4B4B.svg?logo=streamlit&logoColor=white)](https://streamlit.io/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 *An end-to-end, production-grade Natural Language Processing system that decomposes complex customer opinions into discrete aspect targets, predicts sentiment polarity, and generates faithful token-level attributions via Leave-One-Out perturbation.*
+
+### 🚀 **[Try the Live Web App Here](https://aspectra-absa-nlp-capstone-3teqkstws26wnur9ubmsr7.streamlit.app/)**
 
 [Overview](#-executive-summary) • [System Architecture](#-system-architecture) • [Key Benchmarks](#-empirical-benchmarks) • [Quickstart](#-installation--quickstart) • [UI & Dashboard](#-visual-interface--ui) • [Explainability](#-explainable-ai-xai)
 
@@ -225,6 +229,7 @@ pytest
 
 ## 👥 Authors & Acknowledgments
 
-- **Developed for:** NLP Semester 5 University Project
-- **Primary Domain:** Computational Linguistics, Deep Learning & Information Extraction
-- **Frameworks:** PyTorch, HuggingFace Transformers, FastAPI, Streamlit, Vite.
+- **Lead Author & System Architect:** **Utkarsh Yadav**
+- **Domain Specialization:** Natural Language Processing, Deep Learning & Information Extraction
+- **Core Frameworks:** PyTorch, HuggingFace Transformers, FastAPI, Streamlit, Vite, TypeScript.
+- **Live Deployment:** [Aspectra ABSA Cloud Studio](https://aspectra-absa-nlp-capstone-3teqkstws26wnur9ubmsr7.streamlit.app/)
