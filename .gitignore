@@ -26,18 +26,20 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-# (Note: frontend/dist is included in git so the compiled UI works out-of-the-box)
+# (Note: frontend/dist is retained so the compiled UI works out-of-the-box)
 
 # 3. Large Model Checkpoints (> 100MB exceeds GitHub push limit)
+# GitHub enforces a 100MB strict file size limit. Trained weights are ~255MB each.
 *.pt
 *.bin
 *.safetensors
+*.onnx
 models/aspect_extraction/distilbert/*.pt
 models/sentiment_classification/distilbert/*.pt
 models/aspect_extraction/bilstm/*.pt
 models/sentiment_classification/bilstm/*.pt
 
-# 4. Logs, OS & Temporary Files
+# 4. Logs, Temporary & Extra Documentation Files
 logs/*.log
 *.log
 *.tmp
@@ -47,6 +49,14 @@ logs/*.log
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# Extra internal viva guides & auxiliary presentations not needed on public GitHub repo
+VIVA_MASTER_GUIDE.txt
+PPT_10_SLIDES.md
+PRESENTATION_GUIDE.md
+DEPLOYMENT_GUIDE.md
+README_DOCKER.md
+project_viva_documentation/
 
 # 5. IDE / Editor Folders
 .vscode/

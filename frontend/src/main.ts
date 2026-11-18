@@ -328,6 +328,45 @@ async function handleAnalyze() {
   }
 }
 
+function buildHighlightedText(reviewText: string, aspects: Aspect[]): string {
+  interface Span { start: number; end: number; sentiment: string }
+  const validSpans: Span[] = [];
+
+  for (const a of aspects) {
+    let s = a.char_start;
+    let e = a.char_end;
+
+    // Fallback search if index is missing or out of bounds
+    if (s === undefined || e === undefined || s < 0 || e <= s || e > reviewText.length) {
+      const idx = reviewText.toLowerCase().indexOf(a.aspect.toLowerCase());
+      if (idx >= 0) {
+        s = idx;
+        e = idx + a.aspect.length;
+      }
+    }
+
+    if (s !== undefined && e !== undefined && s >= 0 && e <= reviewText.length && e > s) {
+      // Disallow overlapping spans to prevent word splitting
+      const hasOverlap = validSpans.some(v => Math.max(s!, v.start) < Math.min(e!, v.end));
+      if (!hasOverlap) {
+        validSpans.push({ start: s, end: e, sentiment: a.sentiment });
+      }
+    }
+  }
+
+  // Sort strictly in descending order of start index
+  validSpans.sort((a, b) => b.start - a.start);
+
+  let html = reviewText;
+  for (const span of validSpans) {
+    const before = html.slice(0, span.start);
+    const textSpan = html.slice(span.start, span.end);
+    const after = html.slice(span.end);
+    html = `${before}<span class="hl-${span.sentiment}">${textSpan}</span>${after}`;
+  }
+  return html;
+}
+
 function displaySingleResults(data: PredictionResponse) {
   const latencyIndicator = document.getElementById('latency-indicator');
   if (latencyIndicator) {
@@ -344,20 +383,8 @@ function displaySingleResults(data: PredictionResponse) {
     return;
   }
 
-  // Highlight original review text
-  let highlightedText = data.review;
-  const sortedAspects = [...data.aspects]
-    .filter(a => a.char_start !== undefined && a.char_start >= 0)
-    .sort((a, b) => (b.char_start || 0) - (a.char_start || 0));
-
-  for (const a of sortedAspects) {
-    if (a.char_start !== undefined && a.char_end !== undefined) {
-      const before = highlightedText.slice(0, a.char_start);
-      const span = highlightedText.slice(a.char_start, a.char_end);
-      const after = highlightedText.slice(a.char_end);
-      highlightedText = `${before}<span class="hl-${a.sentiment}">${span}</span>${after}`;
-    }
-  }
+  // Build clean non-overlapping highlights
+  const highlightedText = buildHighlightedText(data.review, data.aspects);
 
   let html = `
     <div class="highlight-panel">

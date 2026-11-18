@@ -59,7 +59,7 @@
 
       <div id="tab-content"></div>
     </main>
-  `,u(),f(),d()}function u(){document.querySelectorAll(`.tab-btn`).forEach(e=>{e.addEventListener(`click`,e=>{n=e.currentTarget.dataset.tab,l()})})}async function d(){try{let t=await fetch(`${e}/health`);if(t.ok){let e=await t.json(),n=document.getElementById(`system-status-dot`),r=document.getElementById(`system-status-text`);n&&r&&(n.className=`status-dot`,r.textContent=`Operational • ${e.device.toUpperCase()}`)}}catch{let e=document.getElementById(`system-status-dot`),t=document.getElementById(`system-status-text`);e&&t&&(e.className=`status-dot offline`,t.textContent=`API Offline (Port 8000)`)}}function f(){let e=document.getElementById(`tab-content`);n===`single`?p(e):n===`batch`?g(e):_(e)}function p(e){let n=t[r],l=[`c-blue`,`c-purple`,`c-amber`];e.innerHTML=`
+  `,u(),f(),d()}function u(){document.querySelectorAll(`.tab-btn`).forEach(e=>{e.addEventListener(`click`,e=>{n=e.currentTarget.dataset.tab,l()})})}async function d(){try{let t=await fetch(`${e}/health`);if(t.ok){let e=await t.json(),n=document.getElementById(`system-status-dot`),r=document.getElementById(`system-status-text`);n&&r&&(n.className=`status-dot`,r.textContent=`Operational • ${e.device.toUpperCase()}`)}}catch{let e=document.getElementById(`system-status-dot`),t=document.getElementById(`system-status-text`);e&&t&&(e.className=`status-dot offline`,t.textContent=`API Offline (Port 8000)`)}}function f(){let e=document.getElementById(`tab-content`);n===`single`?p(e):n===`batch`?_(e):v(e)}function p(e){let n=t[r],l=[`c-blue`,`c-purple`,`c-amber`];e.innerHTML=`
     <div class="dashboard-grid">
       <!-- Input Card -->
       <div class="card">
@@ -136,21 +136,21 @@
         </div>
       </div>
     </div>
-  `;let u=document.getElementById(`domain-select`);u.addEventListener(`change`,()=>{r=u.value;let n=document.getElementById(`review-input`);n.value=t[r][0].text,p(e)});let d=document.getElementById(`model-select`);d.addEventListener(`change`,()=>{i=d.value});let f=document.getElementById(`thresh-slider`);f.addEventListener(`input`,()=>{a=parseFloat(f.value),document.getElementById(`thresh-val`).textContent=`${Math.round(a*100)}%`});let g=document.getElementById(`explain-check`);g.addEventListener(`change`,()=>{o=g.checked}),document.querySelectorAll(`.sample-chip`).forEach(e=>{e.addEventListener(`click`,e=>{let n=parseInt(e.currentTarget.dataset.idx),i=document.getElementById(`review-input`);i.value=t[r][n].text})}),document.getElementById(`analyze-btn`).addEventListener(`click`,m),s&&h(s)}async function m(){let t=document.getElementById(`review-input`).value.trim();if(!t)return;c=!0;let n=document.getElementById(`analyze-btn`);n&&(n.disabled=!0,n.textContent=`Processing Inference...`);try{let n=await fetch(`${e}/predict`,{method:`POST`,headers:{"Content-Type":`application/json`},body:JSON.stringify({review:t,model:i,domain:r,explain:o,confidence_threshold:a})});if(!n.ok)throw Error(`API request failed`);let c=await n.json();s=c,h(c)}catch{let e=document.getElementById(`results-viewport`);e.innerHTML=`
+  `;let u=document.getElementById(`domain-select`);u.addEventListener(`change`,()=>{r=u.value;let n=document.getElementById(`review-input`);n.value=t[r][0].text,p(e)});let d=document.getElementById(`model-select`);d.addEventListener(`change`,()=>{i=d.value});let f=document.getElementById(`thresh-slider`);f.addEventListener(`input`,()=>{a=parseFloat(f.value),document.getElementById(`thresh-val`).textContent=`${Math.round(a*100)}%`});let h=document.getElementById(`explain-check`);h.addEventListener(`change`,()=>{o=h.checked}),document.querySelectorAll(`.sample-chip`).forEach(e=>{e.addEventListener(`click`,e=>{let n=parseInt(e.currentTarget.dataset.idx),i=document.getElementById(`review-input`);i.value=t[r][n].text})}),document.getElementById(`analyze-btn`).addEventListener(`click`,m),s&&g(s)}async function m(){let t=document.getElementById(`review-input`).value.trim();if(!t)return;c=!0;let n=document.getElementById(`analyze-btn`);n&&(n.disabled=!0,n.textContent=`Processing Inference...`);try{let n=await fetch(`${e}/predict`,{method:`POST`,headers:{"Content-Type":`application/json`},body:JSON.stringify({review:t,model:i,domain:r,explain:o,confidence_threshold:a})});if(!n.ok)throw Error(`API request failed`);let c=await n.json();s=c,g(c)}catch{let e=document.getElementById(`results-viewport`);e.innerHTML=`
       <div style="background: var(--status-neg-bg); border: 1px solid var(--status-neg-border); padding: 1.25rem; border-radius: 8px; color: var(--status-neg-text);">
         <strong>API Disconnected</strong><br>
         Ensure the backend server is running in PowerShell via: <code>uvicorn api.main:app --reload</code>
       </div>
-    `}finally{c=!1,n&&(n.disabled=!1,n.textContent=`Analyze Review`)}}function h(e){let t=document.getElementById(`latency-indicator`);t&&(t.textContent=`${e.latency_ms} ms • ${e.model.toUpperCase()}`);let n=document.getElementById(`results-viewport`);if(!e.aspects||e.aspects.length===0){n.innerHTML=`
+    `}finally{c=!1,n&&(n.disabled=!1,n.textContent=`Analyze Review`)}}function h(e,t){let n=[];for(let r of t){let t=r.char_start,i=r.char_end;if(t===void 0||i===void 0||t<0||i<=t||i>e.length){let n=e.toLowerCase().indexOf(r.aspect.toLowerCase());n>=0&&(t=n,i=n+r.aspect.length)}t!==void 0&&i!==void 0&&t>=0&&i<=e.length&&i>t&&(n.some(e=>Math.max(t,e.start)<Math.min(i,e.end))||n.push({start:t,end:i,sentiment:r.sentiment}))}n.sort((e,t)=>t.start-e.start);let r=e;for(let e of n){let t=r.slice(0,e.start),n=r.slice(e.start,e.end),i=r.slice(e.end);r=`${t}<span class="hl-${e.sentiment}">${n}</span>${i}`}return r}function g(e){let t=document.getElementById(`latency-indicator`);t&&(t.textContent=`${e.latency_ms} ms • ${e.model.toUpperCase()}`);let n=document.getElementById(`results-viewport`);if(!e.aspects||e.aspects.length===0){n.innerHTML=`
       <div style="text-align: center; padding: 3rem 1rem; color: var(--text-muted);">
         No aspects detected meeting the ${Math.round(a*100)}% confidence threshold.
       </div>
-    `;return}let r=e.review,i=[...e.aspects].filter(e=>e.char_start!==void 0&&e.char_start>=0).sort((e,t)=>(t.char_start||0)-(e.char_start||0));for(let e of i)if(e.char_start!==void 0&&e.char_end!==void 0){let t=r.slice(0,e.char_start),n=r.slice(e.char_start,e.char_end),i=r.slice(e.char_end);r=`${t}<span class="hl-${e.sentiment}">${n}</span>${i}`}let o=`
+    `;return}let r=`
     <div class="highlight-panel">
-      ${r}
+      ${h(e.review,e.aspects)}
     </div>
     <div class="aspects-list">
-  `;for(let t of e.aspects)o+=`
+  `;for(let t of e.aspects)r+=`
       <div class="aspect-card ${t.sentiment}">
         <div class="aspect-top">
           <span class="aspect-title">${t.aspect}</span>
@@ -161,7 +161,7 @@
         <div class="meter-bg">
           <div class="meter-fill ${t.sentiment}" style="width: ${Math.round(t.confidence*100)}%"></div>
         </div>
-    `,t.explanation&&t.explanation.top_influential_words&&(o+=`
+    `,t.explanation&&t.explanation.top_influential_words&&(r+=`
         <div class="explain-section">
           <span class="explain-label">Influential Tokens (Feature Attribution):</span>
           <div>
@@ -172,14 +172,14 @@
             `).join(``)}
           </div>
         </div>
-      `),o+=`</div>`;o+=`
+      `),r+=`</div>`;r+=`
     </div>
     <div class="export-bar">
       <button class="btn-secondary" id="export-json">Export JSON</button>
       <button class="btn-secondary" id="export-csv">Export CSV</button>
     </div>
-  `,n.innerHTML=o,document.getElementById(`export-json`)?.addEventListener(`click`,()=>{v(JSON.stringify(e,null,2),`absa_prediction.json`,`application/json`)}),document.getElementById(`export-csv`)?.addEventListener(`click`,()=>{let t=[`Aspect,Sentiment,Confidence,Review`];for(let n of e.aspects)t.push(`"${n.aspect}","${n.sentiment}",${n.confidence},"${e.review.replace(/"/g,`""`)}"`);v(t.join(`
-`),`absa_prediction.csv`,`text/csv`)})}function g(t){t.innerHTML=`
+  `,n.innerHTML=r,document.getElementById(`export-json`)?.addEventListener(`click`,()=>{y(JSON.stringify(e,null,2),`absa_prediction.json`,`application/json`)}),document.getElementById(`export-csv`)?.addEventListener(`click`,()=>{let t=[`Aspect,Sentiment,Confidence,Review`];for(let n of e.aspects)t.push(`"${n.aspect}","${n.sentiment}",${n.confidence},"${e.review.replace(/"/g,`""`)}"`);y(t.join(`
+`),`absa_prediction.csv`,`text/csv`)})}function _(t){t.innerHTML=`
     <div class="card" style="max-width: 960px; margin: 0 auto;">
       <div class="card-header">
         <div>
@@ -245,7 +245,7 @@ Battery lasts for 10 hours without any heating issues.</textarea>
               `).join(``)||`<span style="color: var(--text-muted); font-size: 0.85rem;">No aspects detected</span>`}
             </td>
           </tr>
-        `}),s+=`</tbody></table>`,o.innerHTML=s}catch{alert(`Batch analysis request failed.`)}finally{n.disabled=!1,n.textContent=`Process Batch`}})}function _(e){e.innerHTML=`
+        `}),s+=`</tbody></table>`,o.innerHTML=s}catch{alert(`Batch analysis request failed.`)}finally{n.disabled=!1,n.textContent=`Process Batch`}})}function v(e){e.innerHTML=`
     <div class="card" style="max-width: 960px; margin: 0 auto;">
       <div class="card-header">
         <div>
@@ -339,4 +339,4 @@ Battery lasts for 10 hours without any heating issues.</textarea>
         </ul>
       </div>
     </div>
-  `}function v(e,t,n){let r=new Blob([e],{type:n}),i=URL.createObjectURL(r),a=document.createElement(`a`);a.href=i,a.download=t,a.click(),URL.revokeObjectURL(i)}l();
+  `}function y(e,t,n){let r=new Blob([e],{type:n}),i=URL.createObjectURL(r),a=document.createElement(`a`);a.href=i,a.download=t,a.click(),URL.revokeObjectURL(i)}l();

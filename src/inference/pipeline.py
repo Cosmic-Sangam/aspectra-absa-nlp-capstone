@@ -1,59 +1,97 @@
 """End-to-end ABSA pipeline: text → aspects with sentiments."""
 import json
 import re
-from typing import Dict, List, Optional
+from typing import Dict, List, Optional, Tuple
 
 from src.inference.predictor import BiLSTMPredictor, DistilBertPredictor
 
-COMMON_ASPECTS = {
+# Comprehensive domain patterns and aspects
+DOMAIN_PATTERNS = {
     "restaurant": [
-        "wait time", "food quality", "food", "service", "staff", "waiter", "waitress",
-        "ambiance", "atmosphere", "price", "drinks", "wine", "dessert", "place",
-        "decor", "menu", "taste", "speed", "experience", "cleanliness"
+        (r"\bworth(?:\s+it)?\b", "worth it", "worth"),
+        (r"\b(?:wait(?:ed|ing)?|long time|queue|delay)\b", "wait time", "wait"),
+        (r"\b(?:food|pizza|pasta|sushi|burger|dish|meal|steak|dessert|salad|soup|meat|fish|bread|appetizer)\b", None, "food"),
+        (r"\b(?:cook(?:ed)?|tast(?:e|y|ed|ing)|delicious|flavor|fresh|bland|yummy)\b", "food quality", "taste"),
+        (r"\b(?:service|server|waiter|waitress|staff|bartender|hostess|manager)\b", "service", "service"),
+        (r"\b(?:price|pricing|cost|expensive|cheap|overpriced|affordable|bill|check)\b", "price", "price"),
+        (r"\b(?:ambian(?:ce|t)|atmosphere|vibe|decor|music|interior|lighting|patio|seating|room)\b", "ambiance", "ambiance"),
+        (r"\b(?:drink|cocktail|beer|wine|beverage|coffee|tea|bar)\b", "drinks", "drinks"),
+        (r"\b(?:clean(?:liness)?|dirty|filthy|hygien(?:e|ic)|smell)\b", "cleanliness", "clean"),
+        (r"\b(?:portion|quantity|size)\b", "portion size", "portion"),
     ],
     "laptop": [
-        "battery life", "battery", "screen", "display", "keyboard", "trackpad",
-        "performance", "speed", "price", "build quality", "design", "weight",
-        "sound", "speaker", "fan noise", "fan", "heat", "software", "ram", "storage"
+        (r"\bworth(?:\s+it)?\b", "worth it", "worth"),
+        (r"\b(?:battery(?:\s+life)?|charge|charging|drain|adapter|charger)\b", "battery life", "battery"),
+        (r"\b(?:screen|display|monitor|resolution|oled|panel|refresh rate|brightness)\b", "screen", "screen"),
+        (r"\b(?:keyboard|keys|keypad|typing|backlight)\b", "keyboard", "keyboard"),
+        (r"\b(?:trackpad|touchpad|mouse)\b", "trackpad", "trackpad"),
+        (r"\b(?:performance|speed|fast|slow|lag|laggy|fps|multitask(?:ing)?|snappy|processor|cpu|gpu)\b", "performance", "performance"),
+        (r"\b(?:heat|thermal|hot|warm|overheat(?:s|ing)?|cooling|fan(?:\s+noise)?)\b", "cooling / fan", "heat"),
+        (r"\b(?:build(?:\s+quality)?|chassis|hinge|body|durab(?:le|ility)|lightweight|heavy|weight)\b", "build quality", "build"),
+        (r"\b(?:speaker|audio|sound|volume|mic(?:rophone)?)\b", "sound quality", "speaker"),
+        (r"\b(?:price|cost|expensive|cheap|value|deal|affordable)\b", "price", "price"),
+        (r"\b(?:software|windows|os|driver|bloatware|updates)\b", "software", "software"),
     ],
 }
 
 
-def find_candidate_aspects(text: str, domain: str = "restaurant") -> List[str]:
-    """Fallback candidate aspect extractor for informal or implicit reviews."""
+def find_candidate_aspects(text: str, domain: str = "restaurant") -> List[Dict]:
+    """Extract candidate aspects with accurate non-overlapping char spans."""
     text_lower = text.lower()
-    found: List[str] = []
+    patterns = DOMAIN_PATTERNS.get(domain, DOMAIN_PATTERNS["restaurant"])
+    extracted: List[Dict] = []
+    claimed_spans: List[Tuple[int, int]] = []
 
-    # 1. Match common domain aspects
-    domain_aspects = COMMON_ASPECTS.get(domain, COMMON_ASPECTS["restaurant"])
-    for asp in sorted(domain_aspects, key=len, reverse=True):
-        if re.search(r"\b" + re.escape(asp) + r"\b", text_lower):
-            if not any(asp in existing for existing in found):
-                found.append(asp)
+    def spans_overlap(s1: int, e1: int, s2: int, e2: int) -> bool:
+        return max(s1, s2) < min(e1, e2)
 
-    # 2. Heuristics for verbal or colloquial expressions
-    if re.search(r"\bwait(?:ed|ing)?\b", text_lower) and "wait time" not in found:
-        found.append("wait time")
-    if re.search(r"\b(cook(?:ed)?|taste(?:d)?|delicious|tasty|fresh)\b", text_lower) and "food" not in found:
-        found.append("food")
-    if re.search(r"\b(slow|fast|quick|rude|friendly|polite|helpful)\b", text_lower) and "service" not in found:
-        found.append("service")
+    for regex_pat, normalized_name, fallback_keyword in patterns:
+        for match in re.finditer(regex_pat, text_lower):
+            s_idx, e_idx = match.start(), match.end()
+            if any(spans_overlap(s_idx, e_idx, cs, ce) for cs, ce in claimed_spans):
+                continue
 
-    # 3. Extract noun phrases after articles (the/a/an)
-    matches = re.findall(r"\b(?:the|a|an)\s+([a-z]+(?:\s+[a-z]+)?)\b", text_lower)
-    stopwords = {"this", "that", "with", "from", "other", "very", "much", "more", "first", "next", "last", "same"}
-    for m in matches:
-        words = [w for w in m.split() if w not in stopwords]
-        if words:
-            phrase = " ".join(words)
-            if len(phrase) > 2 and phrase not in found and not any(phrase in f for f in found):
-                found.append(phrase)
+            term = normalized_name if normalized_name else match.group(0)
+            # Avoid duplicate aspects
+            if any(term.lower() == e["aspect"].lower() for e in extracted):
+                continue
 
-    # 4. If still nothing found, provide 'overall experience'
-    if not found:
-        found.append("overall experience")
+            claimed_spans.append((s_idx, e_idx))
+            extracted.append({
+                "aspect": term,
+                "char_start": s_idx,
+                "char_end": e_idx,
+            })
 
-    return found[:3]
+    # If no pattern matched, extract noun phrases after articles (the/a/an)
+    if not extracted:
+        matches = re.finditer(r"\b(?:the|a|an)\s+([a-z]+(?:\s+[a-z]+)?)\b", text_lower)
+        stopwords = {"this", "that", "with", "from", "other", "very", "much", "more", "first", "next", "last", "same"}
+        for m in matches:
+            phrase = m.group(1).strip()
+            words = [w for w in phrase.split() if w not in stopwords]
+            if words:
+                clean_phrase = " ".join(words)
+                s_idx = text_lower.find(clean_phrase)
+                if s_idx >= 0 and len(clean_phrase) > 2:
+                    e_idx = s_idx + len(clean_phrase)
+                    if not any(spans_overlap(s_idx, e_idx, cs, ce) for cs, ce in claimed_spans):
+                        claimed_spans.append((s_idx, e_idx))
+                        extracted.append({
+                            "aspect": clean_phrase,
+                            "char_start": s_idx,
+                            "char_end": e_idx,
+                        })
+
+    # If still completely empty, fallback to overall experience
+    if not extracted:
+        extracted.append({
+            "aspect": "overall experience",
+            "char_start": 0,
+            "char_end": min(len(text), 15),
+        })
+
+    return extracted[:4]
 
 
 class ABSAPipeline:
@@ -76,7 +114,7 @@ class ABSAPipeline:
             self.predictor = BiLSTMPredictor(domain=domain, device=device)
 
     def analyze(self, text: str) -> Dict:
-        """Analyze a review and return structured output with intelligent fallback."""
+        """Analyze a review and return structured output with intelligent extraction."""
         if not text or not text.strip():
             return {"review": text, "aspects": [], "error": "Empty input"}
 
@@ -84,21 +122,34 @@ class ABSAPipeline:
         result = self.predictor.predict(clean_text)
         aspects = result.get("aspects", [])
 
-        # Robust Fallback: If sequence tagger extracted 0 aspects, use candidate extraction
+        # If model extraction returned zero aspects OR missed key contrastive aspects,
+        # augment with candidate extractor to capture all sentiments (e.g. "worth it", "wait time")
+        candidates = find_candidate_aspects(clean_text, self.domain)
+        existing_aspects_lower = {a["aspect"].lower() for a in aspects}
+
         if not aspects:
-            candidates = find_candidate_aspects(clean_text, self.domain)
+            # Fallback mode
             for cand in candidates:
-                sent_info = self.predictor.classify_sentiment(clean_text, cand)
-                idx = clean_text.lower().find(cand.lower())
-                c_start = idx if idx >= 0 else 0
-                c_end = (idx + len(cand)) if idx >= 0 else len(clean_text)
+                sent_info = self.predictor.classify_sentiment(clean_text, cand["aspect"])
                 aspects.append({
-                    "aspect": cand,
+                    "aspect": cand["aspect"],
                     "sentiment": sent_info["sentiment"],
                     "confidence": round(sent_info["confidence"], 4),
-                    "char_start": c_start,
-                    "char_end": c_end,
+                    "char_start": cand["char_start"],
+                    "char_end": cand["char_end"],
                 })
+        else:
+            # Augment mode: if contrast words exist ("worth it", "value") and weren't in BIO tags
+            for cand in candidates:
+                if cand["aspect"].lower() not in existing_aspects_lower and cand["aspect"].lower() in ["worth it", "value"]:
+                    sent_info = self.predictor.classify_sentiment(clean_text, cand["aspect"])
+                    aspects.append({
+                        "aspect": cand["aspect"],
+                        "sentiment": sent_info["sentiment"],
+                        "confidence": round(sent_info["confidence"], 4),
+                        "char_start": cand["char_start"],
+                        "char_end": cand["char_end"],
+                    })
 
         # Apply confidence threshold
         filtered = [
@@ -106,7 +157,7 @@ class ABSAPipeline:
             if a["confidence"] >= self.threshold
         ]
 
-        # Remove duplicates (same aspect term)
+        # Remove duplicates
         seen = set()
         unique = []
         for a in filtered:

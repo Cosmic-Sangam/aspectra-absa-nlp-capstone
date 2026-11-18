@@ -1,0 +1,25 @@
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.git/
+.gitignore
+
+# Frontend raw dev files (we only need the compiled frontend/dist/)
+frontend/node_modules/
+frontend/src/
+frontend/public/
+frontend/package.json
+frontend/package-lock.json
+frontend/tsconfig.json
+node_modules/
+
+# Logs & Archives
+logs/*.log
+*.tar
+*.zip
+*.tmp
+*.bak
