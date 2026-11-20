@@ -37,7 +37,7 @@ The platform provides a unified interface offering real-time token attribution, 
 | ![Batch Processing Tab](assets/screenshots/3.jpg) | ![Evaluation Matrix](assets/screenshots/4.jpg) |
 | *Multi-line review processing with CSV export* | *Comparative SemEval-2014 evaluation metrics* |
 
-> *Note: Place your UI screenshots named `1.jpg`, `2.jpg`, `3.jpg`, and `4.jpg` into the `assets/screenshots/` folder.*
+
 
 </div>
 
